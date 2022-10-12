@@ -1,0 +1,43 @@
+darts-linear-solvers built on 16/03/2022, 18:57:28 by root@runner-ao6cLVhf-project-348-concurrent-0 from c786ae7
+darts-engines built on 26/03/2022, 21:23:43 by root@runner-Gd7HMPkj-project-338-concurrent-0 from 3a8e768
+darts-flash built on 18/02/2021, 10:37:25 by root@runner-czxx3vC9-project-768-concurrent-0 from ddd84bd
+darts-physics built on 20/04/2021, 11:05:31 by root@runner-Gd7HMPkj-project-437-concurrent-0 from e43b597
+Processing mesh: 36401 reservoir blocks, 50 well blocks, 98282 connections
+2-phase 3-component isothermal flow with kinetic reaction and diffusion CPU engine
+Sim params: 
+	First ts: 	0.001
+	Max ts: 	5
+	Mult ts: 	2
+	Max i newton: 	20
+	Max i linear: 	30
+	Tol newton: 	0.01
+	Tol linear: 	0.001
+	OpenMP threads: 	32
+
+START SIMULATION
+-------------------------------------------------------------------------------------------------------------
+Well NA1A initialized with wat rate producer
+Well NA2 initialized with wat rate producer
+Well NA3D initialized with wat rate producer
+Well RJS19 initialized with wat rate producer
+Well PROD005 initialized with wat rate producer
+Well PROD008 initialized with wat rate producer
+Well PROD009 initialized with BHP producer
+Well PROD010 initialized with wat rate producer
+Well PROD012 initialized with wat rate producer
+Well PROD014 initialized with wat rate producer
+Well PROD021 initialized with wat rate producer
+Well PROD023A initialized with wat rate producer
+Well PROD024A initialized with BHP producer
+Well PROD025A initialized with wat rate producer
+Well INJ003 initialized with wat rate producer
+Well INJ005 initialized with wat rate producer
+Well INJ006 initialized with wat rate producer
+Well INJ007 initialized with wat rate producer
+Well INJ010 initialized with wat rate producer
+Well INJ015 initialized with wat rate producer
+Well INJ017 initialized with BHP injector
+Well INJ019 initialized with wat rate producer
+Well INJ021 initialized with wat rate producer
+Well INJ022 initialized with wat rate producer
+Well INJ023 initialized with wat rate producer

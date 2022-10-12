@@ -1,0 +1,1959 @@
+darts-linear-solvers built on 16/03/2022, 18:57:28 by root@runner-ao6cLVhf-project-348-concurrent-0 from c786ae7
+darts-engines built on 26/03/2022, 21:23:43 by root@runner-Gd7HMPkj-project-338-concurrent-0 from 3a8e768
+darts-flash built on 18/02/2021, 10:37:25 by root@runner-czxx3vC9-project-768-concurrent-0 from ddd84bd
+darts-physics built on 20/04/2021, 11:05:31 by root@runner-Gd7HMPkj-project-437-concurrent-0 from e43b597
+Processing mesh: 93960 reservoir blocks, 50 well blocks, 274811 connections
+2-phase 3-component isothermal flow with kinetic reaction and diffusion CPU engine
+Sim params: 
+	First ts: 	0.001
+	Max ts: 	5
+	Mult ts: 	2
+	Max i newton: 	20
+	Max i linear: 	30
+	Tol newton: 	0.01
+	Tol linear: 	0.001
+	OpenMP threads: 	32
+
+START SIMULATION
+-------------------------------------------------------------------------------------------------------------
+Well NA1A initialized with wat rate producer
+Well NA2 initialized with wat rate producer
+Well NA3D initialized with wat rate producer
+Well RJS19 initialized with wat rate producer
+Well PROD005 initialized with wat rate producer
+Well PROD008 initialized with wat rate producer
+Well PROD009 initialized with BHP producer
+Well PROD010 initialized with wat rate producer
+Well PROD012 initialized with wat rate producer
+Well PROD014 initialized with wat rate producer
+Well PROD021 initialized with wat rate producer
+Well PROD023A initialized with wat rate producer
+Well PROD024A initialized with BHP producer
+Well PROD025A initialized with wat rate producer
+Well INJ003 initialized with wat rate producer
+Well INJ005 initialized with wat rate producer
+Well INJ006 initialized with wat rate producer
+Well INJ007 initialized with wat rate producer
+Well INJ010 initialized with wat rate producer
+Well INJ015 initialized with wat rate producer
+Well INJ017 initialized with BHP injector
+Well INJ019 initialized with wat rate producer
+Well INJ021 initialized with wat rate producer
+Well INJ022 initialized with wat rate producer
+Well INJ023 initialized with wat rate producer
+	 #1 (3.5891e-04, 1.0609e+05): lin 1 (8.4e-05)
+Composition correction applied in 2 block(s)
+	 #2 (1.1255e-04, 3.8530e+00): lin 3 (5.8e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.001, DT = 0.001, NI = 2, LI = 4, RES = 6.5e-08 (1.0e-02), CFL=0.004 (ELAPSED 00:00:02 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (6.1799e-04, 2.0389e-02): lin 2 (3.0e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.003, DT = 0.002, NI = 1, LI = 2, RES = 2.7e-07 (4.0e-01), CFL=0.008 (ELAPSED 00:00:03 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0359e-03, 8.0838e-01): lin 3 (1.6e-05)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.007, DT = 0.004, NI = 1, LI = 3, RES = 4.3e-07 (5.3e-02), CFL=0.014 (ELAPSED 00:00:03 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.6502e-03, 1.0577e-01): lin 3 (7.5e-05)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.015, DT = 0.008, NI = 1, LI = 3, RES = 4.0e-07 (5.1e-01), CFL=0.023 (ELAPSED 00:00:03 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.6412e-03, 1.0229e+00): lin 3 (2.3e-04)
+Composition correction applied in 2 block(s)
+	 #2 (1.0671e-06, 2.3565e+00): lin 3 (1.9e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.031, DT = 0.016, NI = 2, LI = 6, RES = 3.4e-10 (3.6e-03), CFL=0.040 (ELAPSED 00:00:03 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.4939e-03, 7.1356e-03): lin 3 (4.6e-04)
+Composition correction applied in 2 block(s)
+	 #2 (2.7180e-05, 7.5622e+00): lin 3 (9.0e-05)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.063, DT = 0.032, NI = 2, LI = 6, RES = 9.4e-09 (3.1e-02), CFL=0.073 (ELAPSED 00:00:03 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.2023e-03, 6.1622e-02): lin 3 (7.1e-04)
+Composition correction applied in 2 block(s)
+	 #2 (4.9326e-05, 1.3379e+01): lin 3 (2.7e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.127, DT = 0.064, NI = 2, LI = 6, RES = 2.8e-08 (1.5e-01), CFL=0.135 (ELAPSED 00:00:03 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.5443e-02, 2.9745e-01): lin 4 (1.4e-04)
+Composition correction applied in 2 block(s)
+	 #2 (1.8276e-04, 7.9394e+00): lin 3 (9.1e-05)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.255, DT = 0.128, NI = 2, LI = 7, RES = 1.4e-06 (9.1e-02), CFL=0.251 (ELAPSED 00:00:04 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.9769e-02, 1.8215e-01): lin 4 (2.1e-04)
+Composition correction applied in 2 block(s)
+	 #2 (4.5274e-04, 2.1377e+01): lin 3 (1.7e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.511, DT = 0.256, NI = 2, LI = 7, RES = 8.2e-07 (5.1e-02), CFL=0.453 (ELAPSED 00:00:04 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (5.8492e-02, 1.0286e-01): lin 4 (3.5e-04)
+Composition correction applied in 2 block(s)
+	 #2 (1.4612e-03, 4.7110e+01): lin 3 (5.8e-04)
+Composition correction applied in 2 block(s)
+	 #3 (1.2813e-05, 3.7228e+00): lin 4 (3.9e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 1.023, DT = 0.512, NI = 3, LI = 11, RES = 2.1e-09 (3.6e-02), CFL=0.761 (ELAPSED 00:00:04 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1565e-01, 7.2367e-02): lin 4 (4.1e-04)
+Composition correction applied in 2 block(s)
+	 #2 (4.5291e-02, 5.4923e+01): lin 4 (2.1e-04)
+Composition correction applied in 2 block(s)
+	 #3 (3.5056e-03, 8.0055e+00): lin 4 (4.4e-04)
+Composition correction applied in 2 block(s)
+	 #4 (9.4026e-04, 2.0051e+01): lin 4 (2.1e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 2.047, DT = 1.024, NI = 4, LI = 16, RES = 1.6e-06 (3.3e-01), CFL=1.402 (ELAPSED 00:00:05 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0484e-01, 6.5694e-01): lin 5 (7.7e-04)
+Composition correction applied in 2 block(s)
+	 #2 (6.5469e-02, 4.9715e+01): lin 4 (9.7e-04)
+Composition correction applied in 2 block(s)
+	 #3 (2.2340e-03, 1.0349e+02): lin 4 (8.4e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 4.095, DT = 2.048, NI = 3, LI = 13, RES = 7.2e-06 (7.9e-01), CFL=1.341 (ELAPSED 00:00:05 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0726e-01, 1.5782e+00): lin 5 (6.0e-04)
+Composition correction applied in 2 block(s)
+Local chop applied in 4 block(s)
+	 #2 (8.0592e-02, 1.6619e+01): lin 4 (6.2e-04)
+Composition correction applied in 2 block(s)
+	 #3 (1.8746e-02, 8.6215e+00): lin 4 (6.8e-04)
+Composition correction applied in 2 block(s)
+	 #4 (3.1677e-04, 2.6078e+00): lin 5 (2.6e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 8.191, DT = 4.096, NI = 4, LI = 18, RES = 5.1e-07 (1.6e-01), CFL=1.200 (ELAPSED 00:00:06 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.5065e-01, 1.9803e-01): lin 5 (5.9e-04)
+Composition correction applied in 2 block(s)
+	 #2 (5.5386e-02, 1.6679e+01): lin 7 (3.6e-04)
+Composition correction applied in 2 block(s)
+	 #3 (4.0169e-03, 1.5765e+00): lin 6 (4.0e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 13.191, DT = 5, NI = 3, LI = 18, RES = 4.2e-05 (3.5e-01), CFL=1.488 (ELAPSED 00:00:06 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.6238e-01, 3.4884e-01): lin 6 (6.5e-04)
+Composition correction applied in 2 block(s)
+	 #2 (7.3489e-02, 8.7505e+01): lin 6 (3.1e-04)
+Composition correction applied in 2 block(s)
+	 #3 (3.8904e-03, 2.1684e+01): lin 5 (3.7e-04)
+Composition correction applied in 2 block(s)
+	 #4 (1.2580e-05, 1.0385e+00): lin 5 (6.9e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 18.191, DT = 5, NI = 4, LI = 22, RES = 3.3e-09 (8.2e-03), CFL=1.666 (ELAPSED 00:00:07 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (5.2734e-02, 8.3197e-03): lin 5 (9.9e-04)
+Composition correction applied in 2 block(s)
+	 #2 (9.7152e-03, 9.6563e+01): lin 4 (6.6e-04)
+Composition correction applied in 2 block(s)
+	 #3 (1.0144e-03, 4.3693e+01): lin 5 (2.5e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 23.191, DT = 5, NI = 3, LI = 14, RES = 1.5e-06 (1.8e-01), CFL=1.798 (ELAPSED 00:00:07 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.5917e-02, 1.8132e-01): lin 5 (8.8e-04)
+Composition correction applied in 2 block(s)
+	 #2 (3.1882e-02, 1.3010e+02): lin 4 (3.9e-04)
+Composition correction applied in 2 block(s)
+	 #3 (1.9738e-02, 4.7179e+01): lin 4 (4.9e-04)
+Composition correction applied in 2 block(s)
+	 #4 (8.7408e-03, 3.6880e+00): lin 4 (8.3e-04)
+Composition correction applied in 2 block(s)
+	 #5 (4.9883e-04, 2.8263e+01): lin 4 (8.1e-04)
+Composition correction applied in 2 block(s)
+	 #6 (1.3425e-05, 1.1800e+00): lin 4 (7.6e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 28.191, DT = 5, NI = 6, LI = 25, RES = 6.0e-09 (3.3e-02), CFL=1.902 (ELAPSED 00:00:08 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.4658e-02, 3.3200e-02): lin 5 (5.6e-04)
+Composition correction applied in 2 block(s)
+	 #2 (1.3131e-02, 5.3083e+01): lin 4 (3.6e-04)
+Composition correction applied in 2 block(s)
+	 #3 (1.9116e-03, 3.9430e+00): lin 4 (2.7e-04)
+Composition correction applied in 2 block(s)
+	 #4 (1.0496e-03, 5.4026e+00): lin 4 (3.4e-04)
+Composition correction applied in 2 block(s)
+	 #5 (3.5556e-05, 1.1180e+00): lin 4 (5.0e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 33.191, DT = 5, NI = 5, LI = 21, RES = 3.6e-08 (7.6e-02), CFL=1.986 (ELAPSED 00:00:08 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1757e-02, 7.5521e-02): lin 5 (3.8e-04)
+Composition correction applied in 2 block(s)
+	 #2 (5.5704e-03, 1.8117e+01): lin 5 (4.3e-04)
+Composition correction applied in 2 block(s)
+	 #3 (1.3445e-03, 1.6844e+00): lin 4 (4.3e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 38.191, DT = 5, NI = 3, LI = 14, RES = 8.2e-06 (7.2e-01), CFL=2.054 (ELAPSED 00:00:09 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.7532e-02, 7.1835e-01): lin 5 (3.9e-04)
+Composition correction applied in 2 block(s)
+	 #2 (3.2454e-02, 1.6451e+01): lin 6 (3.5e-04)
+Composition correction applied in 2 block(s)
+	 #3 (1.1516e-03, 1.9642e+01): lin 5 (2.4e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 43.191, DT = 5, NI = 3, LI = 16, RES = 2.4e-05 (7.0e-01), CFL=2.134 (ELAPSED 00:00:09 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.0858e-02, 7.0311e-01): lin 6 (2.8e-04)
+Composition correction applied in 2 block(s)
+	 #2 (3.5017e-02, 3.4767e+01): lin 6 (5.4e-04)
+Composition correction applied in 2 block(s)
+	 #3 (4.8554e-04, 8.1414e+01): lin 5 (5.1e-04)
+Composition correction applied in 2 block(s)
+	 #4 (4.3030e-05, 2.5428e+00): lin 5 (5.8e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 48.191, DT = 5, NI = 4, LI = 22, RES = 3.0e-08 (5.7e-02), CFL=2.253 (ELAPSED 00:00:10 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (3.6403e-02, 5.6731e-02): lin 5 (9.4e-04)
+Composition correction applied in 18 block(s)
+	 #2 (1.5075e-02, 7.5204e+01): lin 7 (4.5e-04)
+Composition correction applied in 2 block(s)
+	 #3 (5.2183e-04, 6.6656e+00): lin 7 (2.9e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 53.191, DT = 5, NI = 3, LI = 19, RES = 2.4e-07 (1.6e-01), CFL=2.359 (ELAPSED 00:00:10 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (3.3455e-02, 1.6316e-01): lin 5 (6.9e-04)
+Composition correction applied in 18 block(s)
+	 #2 (2.1186e-03, 8.4959e+00): lin 6 (2.8e-04)
+Composition correction applied in 2 block(s)
+	 #3 (4.3382e-05, 2.6456e+00): lin 5 (3.6e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 58.191, DT = 5, NI = 3, LI = 16, RES = 2.8e-08 (4.5e-03), CFL=2.435 (ELAPSED 00:00:11 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (3.8517e-02, 4.5304e-03): lin 6 (2.1e-04)
+Composition correction applied in 18 block(s)
+	 #2 (5.4871e-03, 7.7714e+00): lin 4 (3.0e-04)
+Composition correction applied in 18 block(s)
+	 #3 (3.1719e-04, 1.3111e+01): lin 4 (6.2e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 63.191, DT = 5, NI = 3, LI = 14, RES = 6.4e-06 (7.1e-01), CFL=2.490 (ELAPSED 00:00:11 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.3550e-02, 7.0813e-01): lin 5 (8.3e-04)
+Composition correction applied in 18 block(s)
+	 #2 (8.3482e-03, 1.3717e+02): lin 4 (6.7e-04)
+Composition correction applied in 18 block(s)
+	 #3 (1.4821e-03, 1.7786e+01): lin 4 (4.2e-04)
+Composition correction applied in 18 block(s)
+	 #4 (2.7074e-05, 1.6864e+00): lin 6 (2.9e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 68.191, DT = 5, NI = 4, LI = 19, RES = 9.8e-06 (1.3e-02), CFL=2.535 (ELAPSED 00:00:12 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.4850e-02, 1.2629e-02): lin 5 (6.6e-04)
+Composition correction applied in 18 block(s)
+	 #2 (1.1569e-02, 9.3685e+01): lin 4 (6.7e-04)
+Composition correction applied in 18 block(s)
+	 #3 (2.5326e-03, 2.2384e+01): lin 4 (4.0e-04)
+Composition correction applied in 18 block(s)
+	 #4 (2.6997e-04, 5.1021e+00): lin 4 (2.7e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 73.191, DT = 5, NI = 4, LI = 17, RES = 4.5e-06 (1.9e-01), CFL=2.575 (ELAPSED 00:00:12 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.3527e-02, 1.8845e-01): lin 5 (6.0e-04)
+Composition correction applied in 18 block(s)
+	 #2 (4.2856e-03, 9.2613e+01): lin 4 (5.6e-04)
+Composition correction applied in 18 block(s)
+	 #3 (2.6854e-04, 2.2388e+00): lin 4 (5.9e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 78.191, DT = 5, NI = 3, LI = 13, RES = 2.4e-06 (2.3e-01), CFL=2.608 (ELAPSED 00:00:13 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.5927e-02, 2.2849e-01): lin 5 (6.1e-04)
+Composition correction applied in 18 block(s)
+	 #2 (5.9543e-03, 9.2308e+01): lin 4 (4.8e-04)
+Composition correction applied in 18 block(s)
+	 #3 (5.7838e-04, 4.3598e+00): lin 4 (2.9e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 83.191, DT = 5, NI = 3, LI = 13, RES = 5.4e-06 (7.8e-01), CFL=2.635 (ELAPSED 00:00:13 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.7308e-02, 7.8441e-01): lin 5 (5.6e-04)
+Composition correction applied in 18 block(s)
+	 #2 (1.0167e-03, 7.0167e+01): lin 5 (5.9e-04)
+Composition correction applied in 18 block(s)
+	 #3 (1.2793e-05, 3.1879e+00): lin 4 (8.8e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 88.191, DT = 5, NI = 3, LI = 14, RES = 2.2e-07 (3.8e-02), CFL=2.657 (ELAPSED 00:00:13 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.8801e-02, 3.8095e-02): lin 5 (5.7e-04)
+Composition correction applied in 18 block(s)
+	 #2 (8.2950e-04, 6.0032e+01): lin 5 (4.5e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 93.191, DT = 5, NI = 2, LI = 10, RES = 2.1e-05 (4.8e-01), CFL=2.676 (ELAPSED 00:00:14 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.9493e-02, 4.8183e-01): lin 5 (4.2e-04)
+Composition correction applied in 18 block(s)
+	 #2 (1.8340e-02, 5.3227e+01): lin 5 (8.3e-04)
+Composition correction applied in 18 block(s)
+	 #3 (6.0443e-04, 4.4280e+00): lin 5 (3.6e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 98.191, DT = 5, NI = 3, LI = 15, RES = 6.9e-06 (3.6e-01), CFL=2.721 (ELAPSED 00:00:14 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3672e-02, 1.2947e-01): lin 4 (7.9e-04)
+Composition correction applied in 18 block(s)
+	 #2 (1.5672e-03, 3.4698e+01): lin 4 (4.9e-04)
+Composition correction applied in 18 block(s)
+	 #3 (1.2655e-05, 2.9198e+00): lin 4 (4.5e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 100, DT = 1.809, NI = 3, LI = 12, RES = 1.3e-08 (1.6e-02), CFL=0.993 (ELAPSED 00:00:14 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.9857e-02, 4.3981e-02): lin 5 (4.8e-04)
+Composition correction applied in 18 block(s)
+	 #2 (4.8782e-03, 9.6536e+01): lin 5 (2.1e-04)
+Composition correction applied in 18 block(s)
+	 #3 (5.2624e-05, 1.7056e+00): lin 3 (8.7e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 105, DT = 5, NI = 3, LI = 13, RES = 6.5e-07 (7.9e-01), CFL=12.245 (ELAPSED 00:00:15 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.9552e-02, 7.9297e-01): lin 5 (5.4e-04)
+Composition correction applied in 19 block(s)
+	 #2 (9.9537e-03, 6.5825e+01): lin 5 (9.6e-04)
+Composition correction applied in 18 block(s)
+	 #3 (2.2399e-04, 3.6330e+01): lin 5 (7.2e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 110, DT = 5, NI = 3, LI = 15, RES = 1.4e-06 (2.3e-01), CFL=17.648 (ELAPSED 00:00:15 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.4731e-02, 2.3187e-01): lin 5 (8.3e-04)
+Composition correction applied in 18 block(s)
+	 #2 (7.9276e-03, 1.3050e+02): lin 5 (6.4e-04)
+Composition correction applied in 18 block(s)
+	 #3 (1.9465e-04, 5.5685e+00): lin 4 (9.5e-04)
+Composition correction applied in 18 block(s)
+	 #4 (1.1202e-05, 1.1376e+00): lin 5 (3.1e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 115, DT = 5, NI = 4, LI = 19, RES = 3.8e-09 (4.8e-03), CFL=17.719 (ELAPSED 00:00:16 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.8943e-02, 5.7335e-03): lin 5 (7.4e-04)
+Composition correction applied in 18 block(s)
+	 #2 (3.1671e-03, 1.3265e+02): lin 5 (8.0e-04)
+Composition correction applied in 18 block(s)
+	 #3 (1.0699e-05, 6.1664e+00): lin 5 (7.7e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 120, DT = 5, NI = 3, LI = 15, RES = 1.7e-08 (6.2e-02), CFL=31.411 (ELAPSED 00:00:16 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.0314e-02, 6.1570e-02): lin 5 (9.7e-04)
+Composition correction applied in 21 block(s)
+	 #2 (1.2125e-03, 1.2844e+02): lin 6 (3.1e-04)
+Composition correction applied in 19 block(s)
+	 #3 (3.5632e-05, 1.2756e+00): lin 4 (8.6e-04)
+Composition correction applied in 19 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 125, DT = 5, NI = 3, LI = 15, RES = 1.3e-07 (1.6e-02), CFL=15.836 (ELAPSED 00:00:17 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.2822e-02, 1.6231e-02): lin 5 (6.7e-04)
+Composition correction applied in 19 block(s)
+	 #2 (2.0565e-03, 8.4571e+01): lin 5 (2.7e-04)
+Composition correction applied in 19 block(s)
+	 #3 (3.1268e-05, 2.8901e+00): lin 4 (8.7e-04)
+Composition correction applied in 19 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 130, DT = 5, NI = 3, LI = 14, RES = 7.4e-08 (9.9e-02), CFL=17.533 (ELAPSED 00:00:17 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.4924e-02, 9.9539e-02): lin 5 (7.8e-04)
+Composition correction applied in 20 block(s)
+	 #2 (4.6886e-03, 9.2506e+01): lin 5 (3.2e-04)
+Composition correction applied in 19 block(s)
+	 #3 (2.4897e-04, 2.6712e+00): lin 4 (5.2e-04)
+Composition correction applied in 19 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 135, DT = 5, NI = 3, LI = 14, RES = 2.7e-06 (7.5e-01), CFL=41.460 (ELAPSED 00:00:17 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.6479e-02, 7.4875e-01): lin 5 (4.9e-04)
+Composition correction applied in 21 block(s)
+	 #2 (4.1137e-03, 1.6058e+01): lin 4 (8.2e-04)
+Composition correction applied in 21 block(s)
+	 #3 (2.0603e-04, 4.0467e+00): lin 4 (6.1e-04)
+Composition correction applied in 21 block(s)
+	 #4 (8.0981e-07, 1.0564e+00): lin 6 (7.0e-04)
+Composition correction applied in 21 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 140, DT = 5, NI = 4, LI = 19, RES = 1.8e-07 (7.3e-05), CFL=17.155 (ELAPSED 00:00:18 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.7265e-02, 3.7552e-03): lin 5 (6.0e-04)
+Composition correction applied in 21 block(s)
+	 #2 (4.5748e-03, 7.0831e+01): lin 4 (7.2e-04)
+Composition correction applied in 21 block(s)
+	 #3 (6.4827e-04, 9.2767e+00): lin 3 (9.4e-04)
+Composition correction applied in 21 block(s)
+	 #4 (6.8211e-06, 1.3874e+00): lin 4 (9.8e-04)
+Composition correction applied in 21 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 145, DT = 5, NI = 4, LI = 16, RES = 1.2e-07 (3.7e-02), CFL=18.202 (ELAPSED 00:00:18 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.7458e-02, 3.7806e-02): lin 5 (3.9e-04)
+Composition correction applied in 21 block(s)
+	 #2 (6.3084e-03, 2.5452e+01): lin 4 (4.3e-04)
+Composition correction applied in 21 block(s)
+	 #3 (1.3115e-03, 2.5156e+01): lin 4 (3.1e-04)
+Composition correction applied in 21 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 150, DT = 5, NI = 3, LI = 13, RES = 2.2e-05 (8.8e-01), CFL=32.405 (ELAPSED 00:00:19 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.7379e-02, 8.8289e-01): lin 5 (3.8e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.4962e-03, 3.4049e+01): lin 4 (4.5e-04)
+Composition correction applied in 22 block(s)
+	 #3 (7.0993e-04, 2.1315e+00): lin 4 (2.1e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 155, DT = 5, NI = 3, LI = 13, RES = 3.3e-05 (5.1e-01), CFL=3.055 (ELAPSED 00:00:19 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.8201e-02, 5.1393e-01): lin 4 (9.0e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.9434e-03, 5.7739e+01): lin 4 (4.4e-04)
+Composition correction applied in 22 block(s)
+	 #3 (3.6534e-04, 3.4966e+00): lin 3 (7.0e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 160, DT = 5, NI = 3, LI = 11, RES = 3.0e-05 (2.8e-01), CFL=3.058 (ELAPSED 00:00:20 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.8797e-02, 2.7881e-01): lin 4 (9.1e-04)
+Composition correction applied in 22 block(s)
+	 #2 (3.0925e-03, 5.2388e+01): lin 4 (2.9e-04)
+Composition correction applied in 22 block(s)
+	 #3 (1.7632e-04, 2.7701e+00): lin 3 (9.1e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 165, DT = 5, NI = 3, LI = 11, RES = 3.5e-07 (6.0e-02), CFL=3.060 (ELAPSED 00:00:20 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.9362e-02, 5.9112e-02): lin 5 (2.6e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.2074e-03, 2.8640e+01): lin 4 (3.7e-04)
+Composition correction applied in 22 block(s)
+	 #3 (4.0788e-05, 2.8397e+00): lin 4 (3.1e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 170, DT = 5, NI = 3, LI = 13, RES = 3.8e-08 (1.1e-02), CFL=3.061 (ELAPSED 00:00:20 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.9900e-02, 1.2427e-02): lin 4 (6.8e-04)
+Composition correction applied in 22 block(s)
+	 #2 (4.5361e-03, 6.5520e+01): lin 5 (2.9e-04)
+Composition correction applied in 22 block(s)
+	 #3 (1.4422e-04, 4.8194e+00): lin 4 (5.1e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 175, DT = 5, NI = 3, LI = 13, RES = 1.4e-07 (1.3e-01), CFL=3.063 (ELAPSED 00:00:21 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.9496e-02, 1.2670e-01): lin 4 (6.8e-04)
+Composition correction applied in 6 block(s)
+	 #2 (5.2777e-03, 4.0079e+01): lin 5 (8.0e-04)
+Composition correction applied in 6 block(s)
+	 #3 (2.1093e-04, 3.7730e+00): lin 5 (3.4e-04)
+Composition correction applied in 6 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 180, DT = 5, NI = 3, LI = 14, RES = 8.4e-07 (1.7e-01), CFL=3.071 (ELAPSED 00:00:21 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.8061e-02, 1.7131e-01): lin 4 (9.0e-04)
+Composition correction applied in 6 block(s)
+	 #2 (5.8263e-03, 7.1741e+01): lin 5 (5.2e-04)
+Composition correction applied in 5 block(s)
+	 #3 (1.5050e-04, 2.6480e+01): lin 4 (5.4e-04)
+Composition correction applied in 5 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 185, DT = 5, NI = 3, LI = 13, RES = 1.4e-06 (1.1e-01), CFL=3.090 (ELAPSED 00:00:21 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.5095e-02, 1.0825e-01): lin 4 (9.7e-04)
+Composition correction applied in 5 block(s)
+	 #2 (6.0181e-03, 6.9078e+00): lin 5 (6.4e-04)
+Composition correction applied in 5 block(s)
+	 #3 (1.4117e-04, 2.9878e+01): lin 4 (4.5e-04)
+Composition correction applied in 5 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 190, DT = 5, NI = 3, LI = 13, RES = 6.9e-07 (6.1e-01), CFL=3.122 (ELAPSED 00:00:22 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.1151e-02, 6.1099e-01): lin 5 (4.0e-04)
+Composition correction applied in 5 block(s)
+	 #2 (6.1978e-03, 4.4498e+01): lin 7 (3.0e-04)
+Composition correction applied in 5 block(s)
+	 #3 (2.9657e-04, 1.0429e+01): lin 4 (7.6e-04)
+Composition correction applied in 5 block(s)
+	 #4 (4.2035e-07, 1.6086e+00): lin 6 (6.4e-04)
+Composition correction applied in 5 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 195, DT = 5, NI = 4, LI = 22, RES = 5.9e-10 (2.6e-03), CFL=3.154 (ELAPSED 00:00:22 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.8598e-02, 2.3313e-02): lin 5 (5.2e-04)
+Composition correction applied in 5 block(s)
+	 #2 (3.4792e-03, 6.5582e+01): lin 5 (6.6e-04)
+Composition correction applied in 5 block(s)
+	 #3 (4.1901e-05, 1.4069e+00): lin 4 (4.3e-04)
+Composition correction applied in 5 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 200, DT = 5, NI = 3, LI = 14, RES = 1.4e-06 (2.8e-01), CFL=3.185 (ELAPSED 00:00:23 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.7134e-02, 2.7821e-01): lin 5 (3.7e-04)
+Composition correction applied in 5 block(s)
+	 #2 (2.1913e-03, 4.3786e+01): lin 6 (3.6e-04)
+Composition correction applied in 5 block(s)
+	 #3 (3.9947e-05, 4.5739e+00): lin 5 (5.2e-04)
+Composition correction applied in 5 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 205, DT = 5, NI = 3, LI = 16, RES = 5.9e-07 (4.7e-01), CFL=3.209 (ELAPSED 00:00:23 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.7263e-02, 4.7223e-01): lin 6 (8.1e-04)
+Composition correction applied in 22 block(s)
+	 #2 (3.7405e-03, 7.4035e+01): lin 6 (2.1e-04)
+Composition correction applied in 6 block(s)
+	 #3 (3.4079e-05, 3.5932e+00): lin 4 (7.8e-04)
+Composition correction applied in 6 block(s)
+	 #4 (5.2230e-07, 1.2846e+00): lin 6 (6.3e-04)
+Composition correction applied in 6 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 210, DT = 5, NI = 4, LI = 22, RES = 3.5e-10 (2.0e-03), CFL=3.231 (ELAPSED 00:00:24 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.6690e-02, 1.7932e-02): lin 5 (5.4e-04)
+Composition correction applied in 22 block(s)
+	 #2 (3.5753e-03, 6.1040e+01): lin 6 (3.6e-04)
+Composition correction applied in 5 block(s)
+	 #3 (9.9818e-05, 2.4144e+00): lin 4 (8.8e-04)
+Composition correction applied in 5 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 215, DT = 5, NI = 3, LI = 15, RES = 1.2e-06 (4.6e-01), CFL=3.249 (ELAPSED 00:00:25 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.6117e-02, 4.5926e-01): lin 5 (5.2e-04)
+Composition correction applied in 22 block(s)
+	 #2 (4.0601e-03, 5.1933e+01): lin 5 (3.4e-04)
+Composition correction applied in 5 block(s)
+	 #3 (5.1904e-05, 7.2318e+00): lin 4 (5.8e-04)
+Composition correction applied in 5 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 220, DT = 5, NI = 3, LI = 14, RES = 1.1e-07 (2.1e-01), CFL=3.264 (ELAPSED 00:00:25 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.5710e-02, 2.1261e-01): lin 5 (5.2e-04)
+Composition correction applied in 22 block(s)
+	 #2 (1.8882e-03, 4.1488e+01): lin 4 (4.2e-04)
+Composition correction applied in 22 block(s)
+	 #3 (1.3860e-05, 3.2701e+00): lin 4 (4.3e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 225, DT = 5, NI = 3, LI = 13, RES = 1.7e-08 (4.2e-02), CFL=3.274 (ELAPSED 00:00:26 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.6211e-02, 4.2852e-02): lin 5 (5.5e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.4944e-03, 5.5201e+01): lin 5 (2.5e-04)
+Composition correction applied in 22 block(s)
+	 #3 (4.5803e-05, 2.4975e+00): lin 3 (6.1e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 230, DT = 5, NI = 3, LI = 13, RES = 3.1e-07 (1.6e-01), CFL=3.283 (ELAPSED 00:00:26 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.6268e-02, 1.5879e-01): lin 5 (4.0e-04)
+Composition correction applied in 22 block(s)
+	 #2 (1.8461e-03, 4.1477e+01): lin 5 (3.8e-04)
+Composition correction applied in 22 block(s)
+	 #3 (1.2713e-04, 7.0718e+00): lin 5 (4.2e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 235, DT = 5, NI = 3, LI = 15, RES = 6.4e-07 (4.0e-02), CFL=3.288 (ELAPSED 00:00:26 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.6871e-02, 3.8955e-02): lin 6 (3.0e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.1159e-03, 3.1561e+01): lin 4 (8.8e-04)
+Composition correction applied in 22 block(s)
+	 #3 (1.6023e-04, 3.7526e+00): lin 4 (4.7e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 240, DT = 5, NI = 3, LI = 14, RES = 9.7e-07 (2.5e-01), CFL=3.290 (ELAPSED 00:00:27 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.7563e-02, 2.4684e-01): lin 5 (4.2e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.4304e-03, 4.4433e+01): lin 4 (5.6e-04)
+Composition correction applied in 22 block(s)
+	 #3 (4.7423e-04, 3.6499e+00): lin 3 (8.2e-04)
+Composition correction applied in 22 block(s)
+	 #4 (1.0147e-05, 2.4734e+00): lin 3 (7.7e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 245, DT = 5, NI = 4, LI = 15, RES = 3.1e-08 (1.5e-01), CFL=3.289 (ELAPSED 00:00:27 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.8145e-02, 1.4619e-01): lin 5 (2.7e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.5374e-03, 3.4359e+01): lin 4 (5.1e-04)
+Composition correction applied in 22 block(s)
+	 #3 (1.9996e-04, 1.0268e+01): lin 4 (8.4e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 250, DT = 5, NI = 3, LI = 13, RES = 1.3e-06 (4.0e-01), CFL=3.286 (ELAPSED 00:00:28 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.8484e-02, 3.9859e-01): lin 5 (4.8e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.3812e-03, 4.6987e+01): lin 4 (4.0e-04)
+Composition correction applied in 22 block(s)
+	 #3 (2.2885e-04, 3.5924e+00): lin 3 (9.3e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 255, DT = 5, NI = 3, LI = 12, RES = 4.1e-06 (2.4e-01), CFL=3.283 (ELAPSED 00:00:28 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.8871e-02, 2.4346e-01): lin 4 (7.8e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.1424e-03, 2.6810e+01): lin 4 (6.7e-04)
+Composition correction applied in 22 block(s)
+	 #3 (1.5617e-04, 1.0684e+01): lin 4 (5.5e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 260, DT = 5, NI = 3, LI = 12, RES = 1.1e-06 (3.1e-01), CFL=3.279 (ELAPSED 00:00:28 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.9275e-02, 3.1007e-01): lin 5 (3.4e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.3544e-03, 3.7138e+01): lin 4 (4.1e-04)
+Composition correction applied in 22 block(s)
+	 #3 (2.4795e-04, 4.5229e+00): lin 4 (3.5e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 265, DT = 5, NI = 3, LI = 13, RES = 3.1e-06 (1.2e-01), CFL=3.274 (ELAPSED 00:00:29 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.9592e-02, 1.1558e-01): lin 4 (8.1e-04)
+Composition correction applied in 22 block(s)
+	 #2 (1.2955e-03, 7.9234e+01): lin 4 (3.7e-04)
+Composition correction applied in 22 block(s)
+	 #3 (1.5038e-04, 1.6611e+00): lin 4 (3.1e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 270, DT = 5, NI = 3, LI = 12, RES = 4.3e-06 (1.1e-01), CFL=3.269 (ELAPSED 00:00:29 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.0028e-02, 1.1358e-01): lin 4 (8.9e-04)
+Composition correction applied in 22 block(s)
+	 #2 (1.9188e-03, 4.8746e+01): lin 4 (6.1e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 275, DT = 5, NI = 2, LI = 8, RES = 2.3e-04 (7.5e-01), CFL=3.263 (ELAPSED 00:00:29 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.0320e-02, 7.5447e-01): lin 4 (7.4e-04)
+Composition correction applied in 22 block(s)
+	 #2 (1.8373e-03, 4.3956e+01): lin 4 (3.3e-04)
+Composition correction applied in 22 block(s)
+	 #3 (2.0821e-04, 1.0777e+00): lin 3 (7.9e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 280, DT = 5, NI = 3, LI = 11, RES = 1.7e-06 (6.8e-02), CFL=3.257 (ELAPSED 00:00:30 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.0588e-02, 7.1607e-02): lin 4 (7.1e-04)
+Composition correction applied in 22 block(s)
+	 #2 (3.0739e-03, 5.3481e+01): lin 4 (8.9e-04)
+Composition correction applied in 22 block(s)
+	 #3 (1.3389e-04, 1.3785e+01): lin 5 (3.1e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 285, DT = 5, NI = 3, LI = 13, RES = 9.9e-08 (2.1e-01), CFL=3.253 (ELAPSED 00:00:30 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.0209e-02, 2.0804e-01): lin 4 (6.8e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.7653e-03, 1.7383e+01): lin 5 (2.8e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 290, DT = 5, NI = 2, LI = 9, RES = 1.8e-04 (3.6e-01), CFL=3.252 (ELAPSED 00:00:30 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.9887e-02, 3.6181e-01): lin 4 (5.3e-04)
+Composition correction applied in 22 block(s)
+	 #2 (4.0314e-03, 3.9292e+01): lin 5 (4.9e-04)
+Composition correction applied in 2 block(s)
+	 #3 (1.4560e-04, 2.5446e+00): lin 5 (3.4e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 295, DT = 5, NI = 3, LI = 14, RES = 2.6e-06 (2.6e-02), CFL=3.254 (ELAPSED 00:00:31 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.8741e-02, 2.7165e-02): lin 4 (7.2e-04)
+Composition correction applied in 22 block(s)
+	 #2 (5.7107e-03, 1.2279e+01): lin 6 (3.6e-04)
+Composition correction applied in 2 block(s)
+	 #3 (1.4215e-04, 5.8585e+00): lin 5 (3.5e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 300, DT = 5, NI = 3, LI = 15, RES = 1.0e-06 (4.4e-01), CFL=4.953 (ELAPSED 00:00:31 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.8142e-02, 4.4251e-01): lin 4 (8.1e-04)
+Composition correction applied in 9 block(s)
+	 #2 (4.1775e-03, 8.7113e+01): lin 5 (9.5e-04)
+Composition correction applied in 2 block(s)
+	 #3 (6.5305e-05, 2.9476e+01): lin 5 (4.3e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 305, DT = 5, NI = 3, LI = 14, RES = 1.1e-07 (4.2e-01), CFL=4.850 (ELAPSED 00:00:32 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.7603e-02, 4.2471e-01): lin 4 (5.8e-04)
+Composition correction applied in 19 block(s)
+	 #2 (5.2545e-03, 4.3906e+00): lin 5 (7.1e-04)
+Composition correction applied in 2 block(s)
+	 #3 (8.7972e-05, 1.4799e+01): lin 5 (5.2e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 310, DT = 5, NI = 3, LI = 14, RES = 1.1e-07 (3.7e-01), CFL=4.747 (ELAPSED 00:00:32 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.6540e-02, 3.6700e-01): lin 4 (7.0e-04)
+Composition correction applied in 7 block(s)
+	 #2 (4.4474e-03, 5.8817e+01): lin 5 (4.4e-04)
+Composition correction applied in 2 block(s)
+	 #3 (8.4186e-05, 1.9767e+01): lin 5 (2.6e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 315, DT = 5, NI = 3, LI = 14, RES = 2.4e-07 (3.6e-01), CFL=4.348 (ELAPSED 00:00:32 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.5398e-02, 3.5852e-01): lin 4 (6.1e-04)
+Composition correction applied in 6 block(s)
+	 #2 (3.5856e-03, 5.2047e+00): lin 5 (4.7e-04)
+Composition correction applied in 2 block(s)
+	 #3 (4.1678e-05, 1.2438e+01): lin 5 (4.9e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 320, DT = 5, NI = 3, LI = 14, RES = 1.2e-07 (1.6e-01), CFL=5.563 (ELAPSED 00:00:33 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4436e-02, 1.6127e-01): lin 5 (3.4e-04)
+Composition correction applied in 7 block(s)
+	 #2 (2.5901e-03, 3.4161e+01): lin 5 (5.2e-04)
+Composition correction applied in 2 block(s)
+	 #3 (4.8565e-05, 1.4465e+01): lin 5 (3.6e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 325, DT = 5, NI = 3, LI = 15, RES = 2.4e-07 (2.7e-02), CFL=49.163 (ELAPSED 00:00:33 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3983e-02, 3.1349e-02): lin 5 (2.9e-04)
+Composition correction applied in 14 block(s)
+	 #2 (1.8948e-03, 1.1021e+01): lin 5 (5.9e-04)
+Composition correction applied in 14 block(s)
+	 #3 (2.8446e-05, 3.1682e+00): lin 4 (5.4e-04)
+Composition correction applied in 14 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 330, DT = 5, NI = 3, LI = 14, RES = 4.3e-07 (5.0e-02), CFL=9.572 (ELAPSED 00:00:34 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3407e-02, 5.4131e-02): lin 5 (3.6e-04)
+Composition correction applied in 22 block(s)
+	 #2 (2.1358e-03, 3.2832e+01): lin 5 (3.5e-04)
+Composition correction applied in 22 block(s)
+	 #3 (8.0109e-05, 5.6308e+00): lin 4 (4.6e-04)
+Composition correction applied in 22 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 335, DT = 5, NI = 3, LI = 14, RES = 4.1e-07 (1.3e-01), CFL=35.049 (ELAPSED 00:00:34 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3150e-02, 1.3176e-01): lin 5 (3.7e-04)
+Composition correction applied in 46 block(s)
+	 #2 (1.8816e-03, 3.7828e+01): lin 6 (6.8e-04)
+Composition correction applied in 26 block(s)
+	 #3 (4.4845e-05, 5.5270e+00): lin 6 (5.5e-04)
+Composition correction applied in 26 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 340, DT = 5, NI = 3, LI = 17, RES = 4.5e-07 (4.6e-02), CFL=16.149 (ELAPSED 00:00:35 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3052e-02, 4.6429e-02): lin 6 (7.0e-04)
+Composition correction applied in 51 block(s)
+	 #2 (2.0462e-03, 6.6873e+01): lin 5 (4.1e-04)
+Composition correction applied in 30 block(s)
+	 #3 (3.6310e-05, 2.7447e+00): lin 4 (4.8e-04)
+Composition correction applied in 29 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 345, DT = 5, NI = 3, LI = 15, RES = 4.3e-07 (6.5e-02), CFL=30.783 (ELAPSED 00:00:35 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.2589e-02, 6.5999e-02): lin 4 (9.6e-04)
+Composition correction applied in 51 block(s)
+	 #2 (1.2201e-03, 3.5866e+01): lin 4 (4.0e-04)
+Composition correction applied in 54 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 350, DT = 5, NI = 2, LI = 8, RES = 6.7e-05 (4.4e-01), CFL=15.393 (ELAPSED 00:00:35 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.2828e-02, 4.4102e-01): lin 5 (4.3e-04)
+Composition correction applied in 64 block(s)
+	 #2 (1.7156e-03, 4.2031e+01): lin 4 (7.0e-04)
+Composition correction applied in 61 block(s)
+	 #3 (8.4825e-05, 3.0744e+00): lin 5 (4.2e-04)
+Composition correction applied in 58 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 355, DT = 5, NI = 3, LI = 14, RES = 5.4e-07 (2.6e-02), CFL=14.773 (ELAPSED 00:00:36 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3130e-02, 2.2247e-02): lin 5 (5.1e-04)
+Composition correction applied in 62 block(s)
+	 #2 (1.7082e-03, 4.0014e+01): lin 5 (2.9e-04)
+Composition correction applied in 63 block(s)
+	 #3 (3.2031e-05, 2.5386e+00): lin 5 (5.3e-04)
+Composition correction applied in 59 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 360, DT = 5, NI = 3, LI = 15, RES = 5.3e-07 (2.5e-01), CFL=65.325 (ELAPSED 00:00:36 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3599e-02, 2.4989e-01): lin 6 (3.6e-04)
+Composition correction applied in 75 block(s)
+	 #2 (2.1281e-03, 2.4479e+01): lin 5 (3.8e-04)
+Composition correction applied in 70 block(s)
+	 #3 (5.1273e-05, 6.6771e+00): lin 5 (2.4e-04)
+Composition correction applied in 66 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 365, DT = 5, NI = 3, LI = 16, RES = 5.5e-07 (1.3e-01), CFL=45.290 (ELAPSED 00:00:37 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3636e-02, 1.2696e-01): lin 4 (8.2e-04)
+Composition correction applied in 77 block(s)
+	 #2 (3.0164e-03, 5.3027e+01): lin 5 (4.9e-04)
+Composition correction applied in 72 block(s)
+	 #3 (7.3716e-05, 1.0101e+01): lin 4 (9.0e-04)
+Composition correction applied in 71 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 370, DT = 5, NI = 3, LI = 13, RES = 6.5e-07 (6.1e-01), CFL=18.347 (ELAPSED 00:00:37 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3432e-02, 6.0596e-01): lin 4 (7.9e-04)
+Composition correction applied in 79 block(s)
+	 #2 (1.7217e-03, 4.2347e+01): lin 4 (9.8e-04)
+Composition correction applied in 78 block(s)
+	 #3 (8.6378e-05, 1.0477e+01): lin 4 (3.2e-04)
+Composition correction applied in 77 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 375, DT = 5, NI = 3, LI = 12, RES = 1.5e-06 (4.0e-02), CFL=45.982 (ELAPSED 00:00:37 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3629e-02, 3.9966e-02): lin 4 (7.8e-04)
+Composition correction applied in 85 block(s)
+	 #2 (1.9084e-03, 1.1657e+01): lin 6 (2.9e-04)
+Composition correction applied in 80 block(s)
+	 #3 (7.6536e-05, 3.9137e+00): lin 3 (5.8e-04)
+Composition correction applied in 78 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 380, DT = 5, NI = 3, LI = 13, RES = 6.2e-07 (1.2e-01), CFL=21.500 (ELAPSED 00:00:38 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3940e-02, 1.1706e-01): lin 4 (7.2e-04)
+Composition correction applied in 83 block(s)
+	 #2 (1.7238e-03, 5.0740e+01): lin 5 (3.8e-04)
+Composition correction applied in 80 block(s)
+	 #3 (6.2397e-05, 3.6845e+00): lin 4 (4.2e-04)
+Composition correction applied in 80 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 385, DT = 5, NI = 3, LI = 13, RES = 5.0e-07 (1.6e-01), CFL=8.167 (ELAPSED 00:00:38 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4280e-02, 1.6389e-01): lin 4 (7.7e-04)
+Composition correction applied in 86 block(s)
+	 #2 (2.1021e-03, 1.3126e+01): lin 4 (5.7e-04)
+Composition correction applied in 84 block(s)
+	 #3 (2.2151e-04, 7.6173e+00): lin 4 (3.0e-04)
+Composition correction applied in 84 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 390, DT = 5, NI = 3, LI = 12, RES = 1.7e-05 (2.0e-01), CFL=19.760 (ELAPSED 00:00:39 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4332e-02, 2.0152e-01): lin 5 (2.7e-04)
+Composition correction applied in 90 block(s)
+	 #2 (2.2310e-03, 2.8032e+01): lin 5 (6.7e-04)
+Composition correction applied in 84 block(s)
+	 #3 (1.0927e-04, 1.2756e+01): lin 4 (6.4e-04)
+Composition correction applied in 84 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 395, DT = 5, NI = 3, LI = 14, RES = 2.7e-05 (2.0e-02), CFL=14.810 (ELAPSED 00:00:39 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4365e-02, 2.4643e-02): lin 4 (5.6e-04)
+Composition correction applied in 91 block(s)
+	 #2 (1.4348e-03, 2.1003e+01): lin 4 (6.8e-04)
+Composition correction applied in 92 block(s)
+	 #3 (5.9738e-05, 8.9304e+00): lin 4 (4.3e-04)
+Composition correction applied in 92 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 400, DT = 5, NI = 3, LI = 12, RES = 2.9e-07 (3.8e-02), CFL=63.642 (ELAPSED 00:00:40 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4578e-02, 3.4439e-02): lin 4 (8.2e-04)
+Composition correction applied in 94 block(s)
+	 #2 (8.9220e-04, 1.7151e+01): lin 4 (3.8e-04)
+Composition correction applied in 93 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 405, DT = 5, NI = 2, LI = 8, RES = 3.3e-05 (6.9e-01), CFL=21.017 (ELAPSED 00:00:40 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4844e-02, 6.8793e-01): lin 4 (8.3e-04)
+Composition correction applied in 97 block(s)
+	 #2 (1.0034e-03, 2.6915e+01): lin 4 (5.6e-04)
+Composition correction applied in 98 block(s)
+	 #3 (7.1958e-05, 2.3479e+00): lin 4 (2.4e-04)
+Composition correction applied in 98 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 410, DT = 5, NI = 3, LI = 12, RES = 2.5e-07 (9.5e-03), CFL=8.166 (ELAPSED 00:00:40 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.5068e-02, 1.6736e-02): lin 4 (6.8e-04)
+Composition correction applied in 100 block(s)
+	 #2 (1.9721e-03, 1.1235e+01): lin 4 (9.9e-04)
+Composition correction applied in 100 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 415, DT = 5, NI = 2, LI = 8, RES = 8.3e-05 (8.5e-01), CFL=4.844 (ELAPSED 00:00:40 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4926e-02, 8.4588e-01): lin 4 (6.6e-04)
+Composition correction applied in 100 block(s)
+	 #2 (1.4931e-03, 5.7729e+00): lin 5 (3.0e-04)
+Composition correction applied in 100 block(s)
+	 #3 (1.0480e-04, 3.5379e+00): lin 4 (5.8e-04)
+Composition correction applied in 100 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 420, DT = 5, NI = 3, LI = 13, RES = 3.9e-06 (2.9e-01), CFL=11.438 (ELAPSED 00:00:41 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4885e-02, 2.9396e-01): lin 4 (7.9e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.9798e-03, 4.3041e+01): lin 4 (7.4e-04)
+Composition correction applied in 102 block(s)
+	 #3 (2.1906e-04, 2.5967e+00): lin 3 (6.6e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 425, DT = 5, NI = 3, LI = 11, RES = 6.0e-06 (8.0e-02), CFL=3.358 (ELAPSED 00:00:41 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4788e-02, 8.3627e-02): lin 4 (5.9e-04)
+Composition correction applied in 102 block(s)
+	 #2 (2.4276e-03, 4.6043e+01): lin 4 (9.4e-04)
+Composition correction applied in 82 block(s)
+	 #3 (6.2689e-05, 5.3888e+00): lin 5 (4.4e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 430, DT = 5, NI = 3, LI = 13, RES = 1.3e-07 (2.2e-01), CFL=3.361 (ELAPSED 00:00:42 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4258e-02, 2.6888e-01): lin 4 (5.3e-04)
+Composition correction applied in 82 block(s)
+	 #2 (2.3944e-03, 1.6802e+01): lin 5 (5.3e-04)
+Composition correction applied in 82 block(s)
+Local chop applied in 2 block(s)
+	 #3 (1.0453e-04, 6.8452e+00): lin 4 (4.6e-04)
+Composition correction applied in 82 block(s)
+	 #4 (6.1884e-06, 8.9781e+01): lin 4 (9.7e-04)
+Composition correction applied in 82 block(s)
+	 #5 (3.1659e-06, 4.2893e+01): lin 5 (3.8e-04)
+Composition correction applied in 82 block(s)
+	 #6 (1.6348e-07, 2.0258e+00): lin 6 (4.5e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 435, DT = 5, NI = 6, LI = 28, RES = 9.1e-08 (2.4e-01), CFL=3.369 (ELAPSED 00:00:43 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3587e-02, 1.3877e+00): lin 4 (5.3e-04)
+Composition correction applied in 82 block(s)
+	 #2 (1.0687e-03, 1.6492e+01): lin 4 (6.3e-04)
+Composition correction applied in 82 block(s)
+	 #3 (7.7008e-06, 3.0034e+00): lin 5 (6.6e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 440, DT = 5, NI = 3, LI = 13, RES = 8.2e-08 (6.0e-01), CFL=3.375 (ELAPSED 00:00:43 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3608e-02, 5.8988e-01): lin 4 (6.1e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.8897e-03, 9.9583e+00): lin 5 (4.2e-04)
+Composition correction applied in 82 block(s)
+	 #3 (3.4546e-05, 5.5935e+00): lin 5 (2.8e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 445, DT = 5, NI = 3, LI = 14, RES = 5.7e-08 (6.4e-02), CFL=3.379 (ELAPSED 00:00:43 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3422e-02, 6.6182e-02): lin 5 (5.1e-04)
+Composition correction applied in 82 block(s)
+	 #2 (1.6871e-03, 9.1412e+00): lin 5 (4.2e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 450, DT = 5, NI = 2, LI = 10, RES = 7.2e-05 (4.9e-01), CFL=3.383 (ELAPSED 00:00:44 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.3048e-02, 4.9438e-01): lin 4 (8.9e-04)
+Composition correction applied in 82 block(s)
+	 #2 (2.1044e-03, 8.3856e+00): lin 5 (4.1e-04)
+Composition correction applied in 82 block(s)
+	 #3 (3.1112e-05, 7.8006e+00): lin 4 (4.5e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 455, DT = 5, NI = 3, LI = 13, RES = 7.2e-08 (2.2e-01), CFL=3.390 (ELAPSED 00:00:44 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.2558e-02, 2.3417e-01): lin 4 (9.4e-04)
+Composition correction applied in 82 block(s)
+	 #2 (1.8930e-03, 1.6179e+01): lin 5 (5.1e-04)
+Composition correction applied in 82 block(s)
+	 #3 (4.5440e-05, 2.0460e+00): lin 4 (5.0e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 460, DT = 5, NI = 3, LI = 13, RES = 1.1e-07 (4.7e-02), CFL=3.402 (ELAPSED 00:00:45 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1845e-02, 1.2246e+00): lin 4 (5.8e-04)
+Composition correction applied in 82 block(s)
+Local chop applied in 2 block(s)
+	 #2 (1.8245e-03, 5.2964e+01): lin 6 (3.2e-04)
+Composition correction applied in 82 block(s)
+	 #3 (5.4506e-05, 2.2364e+01): lin 6 (3.7e-04)
+Composition correction applied in 82 block(s)
+	 #4 (2.9023e-07, 4.2537e+00): lin 9 (3.4e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 465, DT = 5, NI = 4, LI = 25, RES = 2.4e-08 (1.1e-01), CFL=3.412 (ELAPSED 00:00:45 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1616e-02, 3.8973e-01): lin 7 (5.8e-04)
+Composition correction applied in 82 block(s)
+	 #2 (1.2689e-03, 3.5032e+01): lin 7 (3.2e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 470, DT = 5, NI = 2, LI = 14, RES = 9.5e-06 (3.4e-01), CFL=3.420 (ELAPSED 00:00:46 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1655e-02, 3.4428e-01): lin 5 (8.7e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.2347e-03, 1.0532e+01): lin 4 (7.8e-04)
+Composition correction applied in 102 block(s)
+	 #3 (3.1107e-05, 3.9475e+00): lin 5 (2.7e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 475, DT = 5, NI = 3, LI = 14, RES = 1.0e-06 (1.1e-01), CFL=3.424 (ELAPSED 00:00:46 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1691e-02, 1.0799e-01): lin 4 (7.2e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.5564e-03, 3.2331e+01): lin 6 (5.4e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 480, DT = 5, NI = 2, LI = 10, RES = 9.9e-05 (9.5e-01), CFL=3.429 (ELAPSED 00:00:46 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1444e-02, 9.4085e-01): lin 5 (3.9e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.4691e-03, 1.4637e+01): lin 6 (4.3e-04)
+Composition correction applied in 82 block(s)
+	 #3 (8.8884e-05, 6.0075e+00): lin 4 (3.3e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 485, DT = 5, NI = 3, LI = 15, RES = 5.5e-07 (7.1e-02), CFL=3.432 (ELAPSED 00:00:47 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1231e-02, 7.2021e-02): lin 4 (7.5e-04)
+Composition correction applied in 102 block(s)
+	 #2 (9.9415e-04, 2.8052e+01): lin 6 (2.9e-04)
+Composition correction applied in 82 block(s)
+	 #3 (1.6437e-05, 1.4179e+00): lin 4 (9.9e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 490, DT = 5, NI = 3, LI = 14, RES = 5.2e-08 (1.1e-01), CFL=3.435 (ELAPSED 00:00:47 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1141e-02, 1.0678e-01): lin 4 (7.4e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.1520e-03, 9.2051e+00): lin 6 (8.9e-04)
+Composition correction applied in 82 block(s)
+	 #3 (6.1533e-05, 6.5687e+00): lin 5 (3.5e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 495, DT = 5, NI = 3, LI = 15, RES = 2.9e-07 (8.9e-02), CFL=3.438 (ELAPSED 00:00:48 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1095e-02, 9.0021e-02): lin 5 (9.0e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.0412e-03, 2.6826e+01): lin 4 (9.8e-04)
+Composition correction applied in 102 block(s)
+	 #3 (3.7101e-05, 1.5425e+00): lin 5 (2.7e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 500, DT = 5, NI = 3, LI = 14, RES = 7.4e-08 (6.7e-03), CFL=3.439 (ELAPSED 00:00:48 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1078e-02, 1.2242e-02): lin 5 (3.4e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.9279e-03, 6.8248e+00): lin 5 (4.0e-04)
+Composition correction applied in 82 block(s)
+	 #3 (1.8728e-05, 6.4235e+00): lin 6 (4.8e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 505, DT = 5, NI = 3, LI = 16, RES = 1.0e-08 (4.4e-02), CFL=3.444 (ELAPSED 00:00:49 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0751e-02, 4.5551e-02): lin 6 (2.7e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.0218e-03, 5.2310e+00): lin 6 (3.8e-04)
+Composition correction applied in 82 block(s)
+	 #3 (3.2906e-05, 1.2427e+00): lin 5 (6.2e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 510, DT = 5, NI = 3, LI = 17, RES = 7.5e-08 (2.1e-01), CFL=3.448 (ELAPSED 00:00:49 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0744e-02, 2.1155e-01): lin 6 (3.8e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.3424e-03, 1.4940e+01): lin 5 (3.0e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 515, DT = 5, NI = 2, LI = 11, RES = 3.1e-05 (4.5e-01), CFL=3.452 (ELAPSED 00:00:49 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0764e-02, 4.4701e-01): lin 4 (7.6e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.2140e-03, 1.6984e+01): lin 4 (8.5e-04)
+Composition correction applied in 102 block(s)
+	 #3 (1.4936e-04, 4.3792e+00): lin 4 (4.1e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 520, DT = 5, NI = 3, LI = 12, RES = 5.7e-07 (2.7e-01), CFL=3.454 (ELAPSED 00:00:50 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0880e-02, 2.6143e-01): lin 5 (3.1e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.0390e-03, 3.0947e+01): lin 5 (5.8e-04)
+Composition correction applied in 102 block(s)
+	 #3 (1.1767e-04, 2.5845e+00): lin 4 (4.9e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 525, DT = 5, NI = 3, LI = 14, RES = 7.2e-07 (5.3e-02), CFL=3.454 (ELAPSED 00:00:50 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1099e-02, 5.3031e-02): lin 5 (3.7e-04)
+Composition correction applied in 102 block(s)
+	 #2 (6.1855e-04, 3.3496e+01): lin 4 (6.2e-04)
+Composition correction applied in 102 block(s)
+	 #3 (3.0292e-05, 3.4572e+00): lin 4 (6.3e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 530, DT = 5, NI = 3, LI = 13, RES = 5.1e-08 (9.3e-02), CFL=3.452 (ELAPSED 00:00:51 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1342e-02, 9.3400e-02): lin 4 (9.3e-04)
+Composition correction applied in 102 block(s)
+	 #2 (9.3239e-04, 2.0603e+01): lin 4 (8.3e-04)
+Composition correction applied in 102 block(s)
+	 #3 (5.8261e-05, 2.6863e+00): lin 4 (3.0e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 535, DT = 5, NI = 3, LI = 12, RES = 3.0e-07 (1.0e-01), CFL=3.449 (ELAPSED 00:00:51 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1406e-02, 1.0274e-01): lin 4 (7.2e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.2676e-03, 2.5090e+01): lin 4 (7.6e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 540, DT = 5, NI = 2, LI = 8, RES = 1.6e-04 (9.8e-01), CFL=3.446 (ELAPSED 00:00:51 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1520e-02, 9.7601e-01): lin 5 (5.7e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.1732e-03, 3.2533e+01): lin 4 (7.5e-04)
+Composition correction applied in 102 block(s)
+	 #3 (1.3835e-04, 5.3377e+00): lin 4 (6.2e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 545, DT = 5, NI = 3, LI = 13, RES = 5.3e-07 (1.7e-01), CFL=3.443 (ELAPSED 00:00:52 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1672e-02, 1.6839e-01): lin 4 (8.7e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.0487e-03, 5.9126e+00): lin 4 (7.6e-04)
+Composition correction applied in 102 block(s)
+	 #3 (1.0908e-04, 3.4006e+00): lin 4 (4.8e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 550, DT = 5, NI = 3, LI = 12, RES = 7.6e-07 (1.4e-01), CFL=3.439 (ELAPSED 00:00:52 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1839e-02, 1.4334e-01): lin 4 (6.4e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.0347e-03, 4.8077e+00): lin 5 (5.2e-04)
+Composition correction applied in 102 block(s)
+	 #3 (2.3748e-04, 1.3418e+00): lin 4 (4.6e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 555, DT = 5, NI = 3, LI = 13, RES = 3.6e-06 (5.0e-01), CFL=3.434 (ELAPSED 00:00:53 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1886e-02, 4.9516e-01): lin 4 (6.2e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.4653e-03, 2.4201e+01): lin 5 (7.2e-04)
+Composition correction applied in 102 block(s)
+	 #3 (1.5054e-04, 1.1559e+01): lin 4 (4.5e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 560, DT = 5, NI = 3, LI = 13, RES = 1.2e-06 (4.4e-01), CFL=3.431 (ELAPSED 00:00:53 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1820e-02, 4.3276e-01): lin 4 (5.5e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.3962e-03, 1.0773e+01): lin 4 (6.7e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 565, DT = 5, NI = 2, LI = 8, RES = 7.8e-05 (6.4e-01), CFL=3.429 (ELAPSED 00:00:53 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1741e-02, 6.3949e-01): lin 4 (5.2e-04)
+Composition correction applied in 102 block(s)
+	 #2 (9.0813e-04, 1.8983e+01): lin 4 (4.8e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 570, DT = 5, NI = 2, LI = 8, RES = 4.9e-05 (1.8e-01), CFL=3.428 (ELAPSED 00:00:54 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1745e-02, 1.8240e-01): lin 4 (5.6e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.1704e-03, 6.5882e+00): lin 4 (8.2e-04)
+Composition correction applied in 102 block(s)
+	 #3 (1.6112e-04, 4.9829e+00): lin 4 (3.3e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 575, DT = 5, NI = 3, LI = 12, RES = 5.2e-06 (7.8e-02), CFL=3.428 (ELAPSED 00:00:54 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1718e-02, 8.0683e-02): lin 4 (5.6e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.1425e-03, 5.7756e+00): lin 5 (4.7e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 580, DT = 5, NI = 2, LI = 9, RES = 6.5e-05 (3.9e-01), CFL=3.429 (ELAPSED 00:00:54 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1540e-02, 3.8969e-01): lin 4 (7.6e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.4845e-03, 2.3193e+01): lin 6 (3.0e-04)
+Composition correction applied in 80 block(s)
+	 #3 (9.6230e-05, 3.4446e+00): lin 5 (3.3e-04)
+Composition correction applied in 79 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 585, DT = 5, NI = 3, LI = 15, RES = 4.2e-07 (1.9e-02), CFL=3.433 (ELAPSED 00:00:55 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1324e-02, 2.5255e-02): lin 5 (5.5e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.2222e-03, 4.3807e+01): lin 5 (2.4e-04)
+Composition correction applied in 82 block(s)
+	 #3 (2.9293e-05, 1.8851e+00): lin 4 (4.7e-04)
+Composition correction applied in 82 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 590, DT = 5, NI = 3, LI = 14, RES = 2.9e-07 (1.0e-01), CFL=3.436 (ELAPSED 00:00:55 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1321e-02, 1.0413e-01): lin 4 (6.2e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.2312e-03, 1.3063e+01): lin 4 (9.2e-04)
+Composition correction applied in 79 block(s)
+	 #3 (7.6468e-05, 1.5425e+00): lin 4 (9.1e-04)
+Composition correction applied in 78 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 595, DT = 5, NI = 3, LI = 12, RES = 2.5e-07 (1.8e-01), CFL=3.440 (ELAPSED 00:00:55 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1085e-02, 1.7266e-01): lin 4 (6.7e-04)
+Composition correction applied in 82 block(s)
+	 #2 (1.4990e-03, 3.8785e+01): lin 5 (3.8e-04)
+Composition correction applied in 54 block(s)
+	 #3 (2.0376e-04, 3.7231e+00): lin 4 (3.1e-04)
+Composition correction applied in 53 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 600, DT = 5, NI = 3, LI = 13, RES = 3.0e-06 (2.0e-01), CFL=3.446 (ELAPSED 00:00:56 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0663e-02, 1.9877e-01): lin 4 (5.6e-04)
+Composition correction applied in 67 block(s)
+	 #2 (1.6154e-03, 3.4314e+00): lin 5 (4.0e-04)
+Composition correction applied in 43 block(s)
+	 #3 (8.5058e-05, 1.3614e+00): lin 4 (4.9e-04)
+Composition correction applied in 43 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 605, DT = 5, NI = 3, LI = 13, RES = 3.6e-07 (1.0e-01), CFL=3.452 (ELAPSED 00:00:56 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0364e-02, 1.0319e-01): lin 4 (5.6e-04)
+Composition correction applied in 55 block(s)
+	 #2 (1.0257e-03, 2.8373e+00): lin 5 (4.6e-04)
+Composition correction applied in 48 block(s)
+	 #3 (6.5918e-05, 2.0854e+00): lin 3 (9.8e-04)
+Composition correction applied in 48 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 610, DT = 5, NI = 3, LI = 12, RES = 1.2e-07 (4.6e-01), CFL=3.458 (ELAPSED 00:00:57 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0310e-02, 4.6367e-01): lin 4 (8.0e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.1949e-03, 2.9376e+01): lin 4 (7.1e-04)
+Composition correction applied in 75 block(s)
+	 #3 (4.9659e-05, 4.1120e+00): lin 4 (4.6e-04)
+Composition correction applied in 75 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 615, DT = 5, NI = 3, LI = 12, RES = 5.6e-06 (7.0e-02), CFL=3.462 (ELAPSED 00:00:57 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0393e-02, 7.1044e-02): lin 5 (6.5e-04)
+Composition correction applied in 102 block(s)
+	 #2 (8.8640e-04, 3.3591e+01): lin 4 (8.6e-04)
+Composition correction applied in 102 block(s)
+	 #3 (2.3970e-05, 4.2697e+00): lin 4 (6.4e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 620, DT = 5, NI = 3, LI = 13, RES = 1.9e-08 (4.3e-02), CFL=3.464 (ELAPSED 00:00:58 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0461e-02, 4.4066e-02): lin 4 (5.9e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.3226e-03, 3.1295e+01): lin 5 (4.5e-04)
+Composition correction applied in 102 block(s)
+	 #3 (1.3326e-04, 1.1860e+00): lin 4 (7.2e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 625, DT = 5, NI = 3, LI = 13, RES = 1.1e-06 (5.8e-01), CFL=3.467 (ELAPSED 00:00:58 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.0267e-02, 5.8402e-01): lin 4 (7.1e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.5744e-03, 3.1695e+01): lin 5 (6.7e-04)
+Composition correction applied in 31 block(s)
+	 #3 (3.7792e-05, 1.8870e+00): lin 5 (8.4e-04)
+Composition correction applied in 31 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 630, DT = 5, NI = 3, LI = 14, RES = 1.0e-07 (9.0e-02), CFL=3.472 (ELAPSED 00:00:58 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.9275e-03, 8.9501e-02): lin 5 (6.4e-04)
+Composition correction applied in 60 block(s)
+	 #2 (1.3488e-03, 9.9682e+00): lin 5 (4.6e-04)
+Composition correction applied in 19 block(s)
+	 #3 (6.8559e-05, 4.6846e+00): lin 6 (3.2e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 635, DT = 5, NI = 3, LI = 16, RES = 2.7e-07 (3.3e-02), CFL=3.479 (ELAPSED 00:00:59 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.6664e-03, 3.5257e-02): lin 5 (5.8e-04)
+Composition correction applied in 47 block(s)
+	 #2 (1.0966e-03, 2.9717e+01): lin 5 (3.9e-04)
+Composition correction applied in 23 block(s)
+	 #3 (7.9033e-05, 3.3557e+00): lin 4 (7.0e-04)
+Composition correction applied in 23 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 640, DT = 5, NI = 3, LI = 14, RES = 2.3e-06 (4.6e-02), CFL=3.484 (ELAPSED 00:00:59 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.5541e-03, 4.3762e-02): lin 4 (6.3e-04)
+Composition correction applied in 53 block(s)
+	 #2 (9.4644e-04, 4.2982e+01): lin 4 (6.3e-04)
+Composition correction applied in 29 block(s)
+	 #3 (7.1608e-05, 4.0483e+00): lin 4 (4.9e-04)
+Composition correction applied in 28 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 645, DT = 5, NI = 3, LI = 12, RES = 2.0e-07 (5.1e-02), CFL=3.489 (ELAPSED 00:01:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.4641e-03, 4.6486e-02): lin 4 (7.9e-04)
+Composition correction applied in 102 block(s)
+	 #2 (9.8120e-04, 5.0851e+01): lin 5 (2.9e-04)
+Composition correction applied in 28 block(s)
+	 #3 (2.5281e-05, 1.3171e+00): lin 4 (4.3e-04)
+Composition correction applied in 28 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 650, DT = 5, NI = 3, LI = 13, RES = 2.7e-08 (9.3e-02), CFL=3.492 (ELAPSED 00:01:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.3530e-03, 9.2761e-02): lin 4 (8.9e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.3318e-03, 7.3908e+01): lin 6 (4.2e-04)
+Composition correction applied in 19 block(s)
+	 #3 (5.9561e-05, 3.9931e+00): lin 6 (3.4e-04)
+Composition correction applied in 19 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 655, DT = 5, NI = 3, LI = 16, RES = 2.5e-07 (2.2e-02), CFL=3.496 (ELAPSED 00:01:01 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.2238e-03, 2.2711e-02): lin 7 (3.1e-04)
+Composition correction applied in 102 block(s)
+	 #2 (9.0043e-04, 2.7342e+01): lin 6 (4.0e-04)
+Composition correction applied in 33 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 660, DT = 5, NI = 2, LI = 13, RES = 2.0e-05 (6.5e-01), CFL=3.499 (ELAPSED 00:01:01 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.2183e-03, 6.4644e-01): lin 5 (4.9e-04)
+Composition correction applied in 102 block(s)
+	 #2 (7.3308e-04, 2.3518e+01): lin 5 (8.0e-04)
+Composition correction applied in 102 block(s)
+	 #3 (4.0426e-05, 2.8980e+00): lin 5 (5.8e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 665, DT = 5, NI = 3, LI = 15, RES = 2.1e-07 (1.5e-01), CFL=3.501 (ELAPSED 00:01:01 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.2564e-03, 1.4977e-01): lin 5 (1.0e-03)
+Composition correction applied in 102 block(s)
+	 #2 (1.0877e-03, 5.0792e+01): lin 4 (8.7e-04)
+Composition correction applied in 102 block(s)
+	 #3 (8.9230e-05, 4.5700e+00): lin 5 (4.1e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 670, DT = 5, NI = 3, LI = 14, RES = 6.2e-07 (2.2e-01), CFL=3.501 (ELAPSED 00:01:02 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.2943e-03, 2.2347e-01): lin 4 (9.6e-04)
+Composition correction applied in 102 block(s)
+	 #2 (5.6845e-04, 6.2485e+01): lin 5 (9.7e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 675, DT = 5, NI = 2, LI = 9, RES = 2.7e-05 (7.4e-01), CFL=3.500 (ELAPSED 00:01:02 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.5270e-03, 7.4307e-01): lin 4 (9.1e-04)
+Composition correction applied in 102 block(s)
+	 #2 (6.7211e-04, 5.5011e+01): lin 5 (5.6e-04)
+Composition correction applied in 102 block(s)
+	 #3 (9.4795e-05, 1.7442e+00): lin 3 (7.8e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 680, DT = 5, NI = 3, LI = 12, RES = 3.3e-07 (3.1e-01), CFL=3.496 (ELAPSED 00:01:02 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.7637e-03, 3.0508e-01): lin 4 (7.6e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.2249e-03, 2.8146e+01): lin 6 (8.4e-04)
+Composition correction applied in 102 block(s)
+	 #3 (1.6066e-05, 4.8541e+00): lin 5 (8.6e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 685, DT = 5, NI = 3, LI = 15, RES = 1.7e-08 (2.6e-02), CFL=3.494 (ELAPSED 00:01:03 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.7384e-03, 2.7548e-02): lin 5 (7.5e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.3525e-03, 3.1281e+01): lin 5 (4.4e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 690, DT = 5, NI = 2, LI = 10, RES = 1.0e-04 (1.0e+00), CFL=3.494 (ELAPSED 00:01:03 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.4682e-03, 9.9709e-01): lin 4 (5.5e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.2412e-03, 1.6850e+01): lin 4 (9.1e-04)
+Composition correction applied in 3 block(s)
+	 #3 (1.5415e-04, 2.3914e+00): lin 5 (3.4e-04)
+Composition correction applied in 3 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 695, DT = 5, NI = 3, LI = 13, RES = 9.5e-07 (2.1e-01), CFL=3.495 (ELAPSED 00:01:04 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.3607e-03, 2.0780e-01): lin 4 (6.6e-04)
+Composition correction applied in 102 block(s)
+	 #2 (7.9434e-04, 3.4655e+00): lin 4 (6.6e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 700, DT = 5, NI = 2, LI = 8, RES = 1.8e-05 (6.3e-01), CFL=3.495 (ELAPSED 00:01:04 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.4231e-03, 6.2693e-01): lin 4 (8.7e-04)
+Composition correction applied in 102 block(s)
+	 #2 (8.8582e-04, 4.2196e+01): lin 5 (5.6e-04)
+Composition correction applied in 102 block(s)
+	 #3 (3.8650e-05, 1.1192e+00): lin 5 (4.6e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 705, DT = 5, NI = 3, LI = 14, RES = 9.6e-08 (1.1e-01), CFL=3.494 (ELAPSED 00:01:04 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.5031e-03, 1.0933e-01): lin 4 (7.1e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.1449e-03, 1.4176e+01): lin 4 (9.7e-04)
+Composition correction applied in 102 block(s)
+	 #3 (9.5308e-05, 3.1345e+00): lin 5 (5.5e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 710, DT = 5, NI = 3, LI = 13, RES = 1.2e-06 (6.5e-02), CFL=3.493 (ELAPSED 00:01:05 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.3981e-03, 6.7022e-02): lin 5 (5.7e-04)
+Composition correction applied in 102 block(s)
+	 #2 (7.5003e-04, 2.7117e+01): lin 4 (8.7e-04)
+Composition correction applied in 102 block(s)
+	 #3 (5.8641e-05, 1.5490e+00): lin 4 (5.0e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 715, DT = 5, NI = 3, LI = 13, RES = 1.9e-07 (1.4e-01), CFL=3.492 (ELAPSED 00:01:05 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.4029e-03, 1.4081e-01): lin 4 (7.7e-04)
+Composition correction applied in 102 block(s)
+	 #2 (7.0015e-04, 4.8985e+01): lin 4 (9.3e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 720, DT = 5, NI = 2, LI = 8, RES = 4.3e-05 (8.0e-01), CFL=3.489 (ELAPSED 00:01:05 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.5756e-03, 7.9588e-01): lin 4 (6.2e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.0400e-03, 2.1724e+01): lin 5 (3.4e-04)
+Composition correction applied in 102 block(s)
+	 #3 (4.4372e-05, 2.3775e+00): lin 4 (7.3e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 725, DT = 5, NI = 3, LI = 13, RES = 1.7e-07 (2.0e-01), CFL=3.485 (ELAPSED 00:01:06 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.7007e-03, 1.9944e-01): lin 4 (8.1e-04)
+Composition correction applied in 106 block(s)
+	 #2 (2.2950e-03, 4.9291e+01): lin 7 (2.7e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 730, DT = 5, NI = 2, LI = 11, RES = 5.0e-05 (6.6e-01), CFL=3.480 (ELAPSED 00:01:06 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.8709e-03, 6.5769e-01): lin 4 (8.9e-04)
+Composition correction applied in 106 block(s)
+	 #2 (1.7355e-03, 9.5553e+00): lin 5 (5.0e-04)
+Composition correction applied in 102 block(s)
+	 #3 (4.9673e-05, 4.7837e+00): lin 4 (7.8e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 735, DT = 5, NI = 3, LI = 13, RES = 1.0e-07 (3.8e-02), CFL=3.474 (ELAPSED 00:01:07 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.9335e-03, 3.6820e-02): lin 4 (5.4e-04)
+Composition correction applied in 102 block(s)
+	 #2 (1.4162e-03, 1.6221e+01): lin 5 (5.3e-04)
+Composition correction applied in 62 block(s)
+	 #3 (7.3122e-05, 1.9862e+00): lin 4 (5.4e-04)
+Composition correction applied in 62 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 740, DT = 5, NI = 3, LI = 13, RES = 3.9e-07 (1.9e-01), CFL=3.472 (ELAPSED 00:01:07 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.6482e-03, 1.9177e-01): lin 4 (4.6e-04)
+Composition correction applied in 103 block(s)
+	 #2 (1.2308e-03, 1.1737e+01): lin 5 (3.8e-04)
+Composition correction applied in 41 block(s)
+	 #3 (1.8003e-05, 3.0136e+00): lin 5 (5.3e-04)
+Composition correction applied in 42 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 745, DT = 5, NI = 3, LI = 14, RES = 3.7e-08 (4.6e-02), CFL=3.472 (ELAPSED 00:01:08 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.6297e-03, 4.7143e-02): lin 5 (4.3e-04)
+Composition correction applied in 106 block(s)
+	 #2 (2.5104e-03, 2.0010e+01): lin 5 (9.0e-04)
+Composition correction applied in 102 block(s)
+	 #3 (1.4984e-05, 1.0275e+01): lin 6 (2.4e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 750, DT = 5, NI = 3, LI = 16, RES = 6.6e-08 (3.9e-03), CFL=3.470 (ELAPSED 00:01:08 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.7374e-03, 1.0133e-02): lin 4 (9.8e-04)
+Composition correction applied in 111 block(s)
+	 #2 (2.4455e-03, 1.9781e+01): lin 6 (2.3e-04)
+Composition correction applied in 102 block(s)
+	 #3 (4.5669e-05, 1.0944e+00): lin 5 (7.1e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 755, DT = 5, NI = 3, LI = 15, RES = 2.2e-07 (9.3e-02), CFL=3.469 (ELAPSED 00:01:08 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.8175e-03, 9.3446e-02): lin 4 (6.2e-04)
+Composition correction applied in 105 block(s)
+	 #2 (2.0919e-03, 3.4470e+01): lin 5 (6.4e-04)
+Composition correction applied in 102 block(s)
+	 #3 (9.1601e-05, 3.1031e+00): lin 4 (5.6e-04)
+Composition correction applied in 102 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 760, DT = 5, NI = 3, LI = 13, RES = 3.5e-07 (1.5e-01), CFL=3.468 (ELAPSED 00:01:09 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.7050e-03, 1.5380e-01): lin 4 (9.5e-04)
+Composition correction applied in 106 block(s)
+	 #2 (1.6849e-03, 1.8735e+01): lin 5 (5.1e-04)
+Composition correction applied in 62 block(s)
+	 #3 (4.3258e-05, 6.2640e+00): lin 4 (6.3e-04)
+Composition correction applied in 62 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 765, DT = 5, NI = 3, LI = 13, RES = 1.1e-07 (1.6e-01), CFL=3.467 (ELAPSED 00:01:09 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.6653e-03, 1.5954e-01): lin 4 (6.7e-04)
+Composition correction applied in 66 block(s)
+	 #2 (2.3395e-03, 1.7535e+01): lin 5 (6.0e-04)
+Composition correction applied in 3 block(s)
+	 #3 (9.8294e-05, 7.9629e+00): lin 4 (4.8e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 770, DT = 5, NI = 3, LI = 13, RES = 5.9e-07 (1.4e-01), CFL=3.469 (ELAPSED 00:01:10 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.5204e-03, 1.4327e-01): lin 4 (3.3e-04)
+Composition correction applied in 70 block(s)
+	 #2 (2.1007e-03, 1.4493e+01): lin 5 (7.2e-04)
+Composition correction applied in 4 block(s)
+	 #3 (6.3821e-05, 3.5040e+00): lin 4 (5.9e-04)
+Composition correction applied in 2 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 775, DT = 5, NI = 3, LI = 13, RES = 2.1e-07 (2.7e-01), CFL=7.644 (ELAPSED 00:01:10 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (9.2451e-03, 3.2829e-01): lin 4 (5.3e-04)
+Composition correction applied in 22 block(s)
+	 #2 (1.9469e-03, 2.0800e+01): lin 5 (5.6e-04)
+Composition correction applied in 12 block(s)
+	 #3 (1.1088e-04, 9.6816e+00): lin 3 (8.4e-04)
+Composition correction applied in 12 block(s)
+	 #4 (2.9718e-06, 7.1158e+00): lin 5 (5.9e-04)
+Composition correction applied in 12 block(s)
+	 #5 (9.8412e-08, 1.6225e+00): lin 6 (6.3e-04)
+Composition correction applied in 12 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 780, DT = 5, NI = 5, LI = 23, RES = 1.4e-08 (4.4e-02), CFL=5.090 (ELAPSED 00:01:11 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.8912e-03, 1.2833e+00): lin 4 (3.3e-04)
+Composition correction applied in 23 block(s)
+	 #2 (1.9521e-03, 6.6094e+00): lin 5 (6.4e-04)
+Composition correction applied in 21 block(s)
+	 #3 (5.6190e-05, 5.1214e+00): lin 4 (5.2e-04)
+Composition correction applied in 18 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 785, DT = 5, NI = 3, LI = 13, RES = 1.9e-07 (2.0e-01), CFL=3.487 (ELAPSED 00:01:11 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.7663e-03, 1.9750e-01): lin 4 (5.4e-04)
+Composition correction applied in 32 block(s)
+	 #2 (2.5881e-03, 7.8242e+00): lin 5 (8.3e-04)
+Composition correction applied in 21 block(s)
+	 #3 (8.4349e-05, 6.9404e+00): lin 4 (6.8e-04)
+Composition correction applied in 20 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 790, DT = 5, NI = 3, LI = 13, RES = 5.2e-07 (2.8e-01), CFL=19.330 (ELAPSED 00:01:12 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.7626e-03, 5.9237e-01): lin 4 (5.5e-04)
+Composition correction applied in 32 block(s)
+Local chop applied in 2 block(s)
+	 #2 (1.7673e-03, 1.1182e+01): lin 5 (4.2e-04)
+Composition correction applied in 24 block(s)
+	 #3 (8.4319e-05, 3.5655e+00): lin 4 (7.5e-04)
+Composition correction applied in 21 block(s)
+	 #4 (2.5985e-07, 2.3873e+00): lin 5 (7.7e-04)
+Composition correction applied in 21 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 795, DT = 5, NI = 4, LI = 18, RES = 4.9e-08 (6.2e-01), CFL=12.281 (ELAPSED 00:01:12 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.6615e-03, 3.6274e-01): lin 4 (6.5e-04)
+Composition correction applied in 34 block(s)
+	 #2 (1.1378e-03, 1.5582e+01): lin 5 (5.9e-04)
+Composition correction applied in 32 block(s)
+	 #3 (4.2333e-05, 1.0816e+00): lin 4 (4.3e-04)
+Composition correction applied in 31 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 800, DT = 5, NI = 3, LI = 13, RES = 1.2e-07 (5.2e-02), CFL=8.901 (ELAPSED 00:01:13 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.6160e-03, 5.2070e-02): lin 4 (5.1e-04)
+Composition correction applied in 49 block(s)
+	 #2 (1.5814e-03, 3.1398e+01): lin 5 (5.7e-04)
+Composition correction applied in 40 block(s)
+	 #3 (1.6710e-05, 6.2277e+00): lin 6 (4.5e-04)
+Composition correction applied in 36 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 805, DT = 5, NI = 3, LI = 15, RES = 5.7e-08 (5.8e-02), CFL=8.179 (ELAPSED 00:01:13 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.5876e-03, 5.8319e-02): lin 5 (6.9e-04)
+Composition correction applied in 57 block(s)
+	 #2 (1.6731e-03, 2.2953e+01): lin 6 (3.6e-04)
+Composition correction applied in 47 block(s)
+	 #3 (9.0170e-05, 2.3706e+00): lin 4 (3.6e-04)
+Composition correction applied in 47 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 810, DT = 5, NI = 3, LI = 15, RES = 2.2e-06 (9.9e-02), CFL=5.994 (ELAPSED 00:01:14 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.5348e-03, 9.8023e-02): lin 4 (4.8e-04)
+Composition correction applied in 160 block(s)
+	 #2 (1.1804e-03, 3.2899e+01): lin 5 (2.7e-04)
+Composition correction applied in 53 block(s)
+	 #3 (4.9989e-05, 1.9525e+00): lin 4 (8.0e-04)
+Composition correction applied in 50 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 815, DT = 5, NI = 3, LI = 13, RES = 2.1e-07 (1.2e-01), CFL=18.621 (ELAPSED 00:01:14 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.5550e-03, 1.1588e-01): lin 4 (5.9e-04)
+Composition correction applied in 163 block(s)
+	 #2 (1.1530e-03, 4.2151e+01): lin 5 (6.7e-04)
+Composition correction applied in 58 block(s)
+	 #3 (2.4712e-05, 2.9226e+00): lin 4 (9.1e-04)
+Composition correction applied in 55 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 820, DT = 5, NI = 3, LI = 13, RES = 8.2e-08 (3.5e-02), CFL=4.939 (ELAPSED 00:01:14 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.4572e-03, 3.0143e-02): lin 5 (1.8e-04)
+Composition correction applied in 155 block(s)
+	 #2 (1.2087e-03, 6.5371e+00): lin 5 (4.0e-04)
+Composition correction applied in 63 block(s)
+	 #3 (1.0443e-04, 1.6764e+00): lin 4 (3.9e-04)
+Composition correction applied in 63 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 825, DT = 5, NI = 3, LI = 14, RES = 1.2e-06 (5.8e-02), CFL=11.486 (ELAPSED 00:01:15 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.3474e-03, 6.0977e-02): lin 4 (6.2e-04)
+Composition correction applied in 178 block(s)
+	 #2 (1.3047e-03, 3.1417e+01): lin 5 (9.3e-04)
+Composition correction applied in 72 block(s)
+	 #3 (3.6490e-05, 2.2152e+00): lin 3 (9.6e-04)
+Composition correction applied in 71 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 830, DT = 5, NI = 3, LI = 12, RES = 1.6e-07 (1.5e-01), CFL=6.396 (ELAPSED 00:01:15 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.3413e-03, 1.4796e-01): lin 4 (8.9e-04)
+Composition correction applied in 180 block(s)
+	 #2 (1.2465e-03, 8.2238e+00): lin 5 (4.0e-04)
+Composition correction applied in 78 block(s)
+	 #3 (6.2863e-05, 2.9545e+00): lin 4 (5.3e-04)
+Composition correction applied in 75 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 835, DT = 5, NI = 3, LI = 13, RES = 2.9e-07 (1.5e-01), CFL=11.056 (ELAPSED 00:01:16 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.3312e-03, 1.4586e-01): lin 4 (7.1e-04)
+Composition correction applied in 196 block(s)
+	 #2 (1.0403e-03, 1.7435e+01): lin 5 (5.7e-04)
+Composition correction applied in 97 block(s)
+	 #3 (3.5927e-05, 4.6167e+00): lin 4 (6.1e-04)
+Composition correction applied in 93 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 840, DT = 5, NI = 3, LI = 13, RES = 1.2e-07 (1.3e-01), CFL=12.695 (ELAPSED 00:01:16 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.2312e-03, 1.2717e-01): lin 4 (7.0e-04)
+Composition correction applied in 186 block(s)
+	 #2 (1.1186e-03, 3.3470e+01): lin 5 (8.7e-04)
+Composition correction applied in 100 block(s)
+	 #3 (2.1119e-05, 1.1585e+00): lin 5 (7.6e-04)
+Composition correction applied in 97 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 845, DT = 5, NI = 3, LI = 14, RES = 1.0e-07 (3.3e-02), CFL=21.350 (ELAPSED 00:01:16 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1419e-03, 2.9304e-02): lin 5 (4.1e-04)
+Composition correction applied in 213 block(s)
+	 #2 (1.3616e-03, 2.3340e+01): lin 5 (7.3e-04)
+Composition correction applied in 107 block(s)
+	 #3 (3.6557e-05, 1.1765e+00): lin 4 (4.5e-04)
+Composition correction applied in 104 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 850, DT = 5, NI = 3, LI = 14, RES = 1.1e-06 (8.7e-02), CFL=10.779 (ELAPSED 00:01:17 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1214e-03, 8.5283e-02): lin 4 (9.2e-04)
+Composition correction applied in 219 block(s)
+	 #2 (8.7937e-04, 4.2788e+01): lin 5 (3.4e-04)
+Composition correction applied in 210 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 855, DT = 5, NI = 2, LI = 9, RES = 5.3e-05 (4.8e-01), CFL=13.697 (ELAPSED 00:01:17 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1719e-03, 4.7430e-01): lin 4 (6.3e-04)
+Composition correction applied in 220 block(s)
+	 #2 (1.6148e-03, 3.9413e+01): lin 5 (2.7e-04)
+Composition correction applied in 216 block(s)
+	 #3 (9.1766e-05, 4.9294e+00): lin 4 (3.2e-04)
+Composition correction applied in 214 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 860, DT = 5, NI = 3, LI = 13, RES = 8.4e-06 (1.4e-01), CFL=13.780 (ELAPSED 00:01:18 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1643e-03, 1.3909e-01): lin 4 (8.2e-04)
+Composition correction applied in 228 block(s)
+	 #2 (1.1164e-03, 8.6351e+00): lin 4 (8.6e-04)
+Composition correction applied in 224 block(s)
+	 #3 (6.9907e-05, 1.6931e+00): lin 4 (3.8e-04)
+Composition correction applied in 222 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 865, DT = 5, NI = 3, LI = 12, RES = 3.2e-07 (8.4e-02), CFL=7.400 (ELAPSED 00:01:18 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1243e-03, 8.3960e-02): lin 4 (5.3e-04)
+Composition correction applied in 233 block(s)
+	 #2 (8.0232e-04, 2.7526e+01): lin 5 (4.0e-04)
+Composition correction applied in 146 block(s)
+	 #3 (4.8661e-05, 2.2976e+00): lin 3 (8.7e-04)
+Composition correction applied in 146 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 870, DT = 5, NI = 3, LI = 12, RES = 3.3e-06 (6.8e-02), CFL=11.625 (ELAPSED 00:01:18 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1143e-03, 7.0067e-02): lin 4 (5.6e-04)
+Composition correction applied in 229 block(s)
+	 #2 (1.2779e-03, 1.5435e+01): lin 5 (9.3e-04)
+Composition correction applied in 229 block(s)
+	 #3 (5.4536e-05, 8.3524e+00): lin 4 (8.6e-04)
+Composition correction applied in 228 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 875, DT = 5, NI = 3, LI = 13, RES = 6.2e-07 (1.3e-01), CFL=6.129 (ELAPSED 00:01:19 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1563e-03, 1.2772e-01): lin 5 (6.8e-04)
+Composition correction applied in 231 block(s)
+	 #2 (7.9135e-04, 2.1057e+01): lin 6 (3.5e-04)
+Composition correction applied in 229 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 880, DT = 5, NI = 2, LI = 11, RES = 3.7e-05 (4.1e-01), CFL=10.240 (ELAPSED 00:01:19 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1293e-03, 4.1162e-01): lin 8 (3.6e-04)
+Composition correction applied in 241 block(s)
+	 #2 (7.5430e-04, 1.0277e+01): lin 6 (7.4e-04)
+Composition correction applied in 138 block(s)
+	 #3 (3.7514e-05, 2.9695e+00): lin 5 (5.0e-04)
+Composition correction applied in 138 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 885, DT = 5, NI = 3, LI = 19, RES = 2.2e-07 (9.7e-02), CFL=3.766 (ELAPSED 00:01:20 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.0604e-03, 9.6998e-02): lin 5 (5.4e-04)
+Composition correction applied in 240 block(s)
+	 #2 (8.5118e-04, 3.0532e+00): lin 4 (9.7e-04)
+Composition correction applied in 140 block(s)
+	 #3 (2.0938e-05, 5.3057e+00): lin 4 (7.4e-04)
+Composition correction applied in 140 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 890, DT = 5, NI = 3, LI = 13, RES = 6.6e-08 (1.0e-01), CFL=4.959 (ELAPSED 00:01:20 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.0165e-03, 1.0597e-01): lin 4 (6.6e-04)
+Composition correction applied in 244 block(s)
+	 #2 (6.9915e-04, 2.7595e+01): lin 4 (1.0e-03)
+Composition correction applied in 142 block(s)
+	 #3 (2.0886e-05, 2.5975e+00): lin 5 (4.4e-04)
+Composition correction applied in 142 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 895, DT = 5, NI = 3, LI = 13, RES = 5.3e-08 (7.3e-02), CFL=9.719 (ELAPSED 00:01:20 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.0060e-03, 7.2439e-02): lin 5 (7.7e-04)
+Composition correction applied in 248 block(s)
+	 #2 (7.2167e-04, 2.8450e+01): lin 5 (6.0e-04)
+Composition correction applied in 228 block(s)
+	 #3 (3.6877e-05, 1.0532e+00): lin 5 (3.5e-04)
+Composition correction applied in 228 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 900, DT = 5, NI = 3, LI = 15, RES = 9.3e-08 (1.2e-01), CFL=3.534 (ELAPSED 00:01:21 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.0379e-03, 1.1517e-01): lin 5 (5.7e-04)
+Composition correction applied in 250 block(s)
+	 #2 (7.7467e-04, 2.8580e+01): lin 4 (6.6e-04)
+Composition correction applied in 250 block(s)
+	 #3 (9.1197e-05, 3.0682e+00): lin 5 (2.6e-04)
+Composition correction applied in 250 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 905, DT = 5, NI = 3, LI = 14, RES = 4.3e-07 (7.0e-02), CFL=4.588 (ELAPSED 00:01:21 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.0769e-03, 7.0858e-02): lin 4 (7.0e-04)
+Composition correction applied in 253 block(s)
+	 #2 (7.8661e-04, 1.3857e+01): lin 5 (5.2e-04)
+Composition correction applied in 252 block(s)
+	 #3 (3.8343e-05, 1.1480e+00): lin 4 (2.7e-04)
+Composition correction applied in 252 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 910, DT = 5, NI = 3, LI = 13, RES = 7.7e-06 (2.7e-02), CFL=5.109 (ELAPSED 00:01:22 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1363e-03, 2.7775e-02): lin 4 (5.5e-04)
+Composition correction applied in 256 block(s)
+	 #2 (5.9524e-04, 2.1756e+01): lin 4 (5.9e-04)
+Composition correction applied in 256 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 915, DT = 5, NI = 2, LI = 8, RES = 6.5e-05 (5.6e-01), CFL=3.533 (ELAPSED 00:01:22 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.2044e-03, 5.6114e-01): lin 4 (4.7e-04)
+Composition correction applied in 257 block(s)
+	 #2 (7.8654e-04, 2.7330e+01): lin 5 (4.5e-04)
+Composition correction applied in 257 block(s)
+	 #3 (1.6778e-04, 1.1008e+00): lin 3 (5.3e-04)
+Composition correction applied in 257 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 920, DT = 5, NI = 3, LI = 12, RES = 1.7e-06 (1.4e-01), CFL=4.793 (ELAPSED 00:01:22 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.2231e-03, 1.3838e-01): lin 4 (6.4e-04)
+Composition correction applied in 259 block(s)
+	 #2 (7.5719e-04, 2.5586e+01): lin 5 (4.0e-04)
+Composition correction applied in 259 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 925, DT = 5, NI = 2, LI = 9, RES = 8.4e-05 (8.6e-01), CFL=4.548 (ELAPSED 00:01:23 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.2673e-03, 8.6327e-01): lin 5 (3.3e-04)
+Composition correction applied in 261 block(s)
+	 #2 (7.1237e-04, 1.4159e+01): lin 5 (3.3e-04)
+Composition correction applied in 261 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 930, DT = 5, NI = 2, LI = 10, RES = 3.2e-05 (8.4e-01), CFL=3.527 (ELAPSED 00:01:23 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.2839e-03, 8.4050e-01): lin 5 (3.6e-04)
+Composition correction applied in 261 block(s)
+	 #2 (8.1922e-04, 4.4388e+00): lin 5 (5.1e-04)
+Composition correction applied in 261 block(s)
+	 #3 (7.3861e-05, 1.6461e+00): lin 4 (2.9e-04)
+Composition correction applied in 261 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 935, DT = 5, NI = 3, LI = 14, RES = 8.4e-07 (8.5e-02), CFL=3.526 (ELAPSED 00:01:24 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.2493e-03, 8.4712e-02): lin 4 (5.6e-04)
+Composition correction applied in 261 block(s)
+	 #2 (7.8200e-04, 2.1035e+01): lin 4 (7.7e-04)
+Composition correction applied in 261 block(s)
+	 #3 (1.3214e-04, 1.2228e+00): lin 3 (8.2e-04)
+Composition correction applied in 261 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 940, DT = 5, NI = 3, LI = 11, RES = 1.9e-06 (2.9e-01), CFL=3.877 (ELAPSED 00:01:24 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.2565e-03, 2.8654e-01): lin 4 (5.7e-04)
+Composition correction applied in 262 block(s)
+	 #2 (8.4943e-04, 1.4421e+01): lin 4 (9.6e-04)
+Composition correction applied in 262 block(s)
+	 #3 (4.3382e-05, 1.3667e+00): lin 5 (3.4e-04)
+Composition correction applied in 262 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 945, DT = 5, NI = 3, LI = 13, RES = 2.3e-07 (8.8e-02), CFL=3.524 (ELAPSED 00:01:24 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (8.1663e-03, 8.7958e-02): lin 5 (4.1e-04)
+Composition correction applied in 262 block(s)
+	 #2 (9.8067e-04, 1.8780e+01): lin 5 (4.0e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 950, DT = 5, NI = 2, LI = 10, RES = 2.9e-05 (9.1e-01), CFL=3.526 (ELAPSED 00:01:25 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.9322e-03, 9.1225e-01): lin 4 (5.6e-04)
+Composition correction applied in 162 block(s)
+	 #2 (8.2519e-04, 2.5967e+01): lin 6 (3.6e-04)
+Composition correction applied in 162 block(s)
+	 #3 (5.0666e-05, 1.0638e+00): lin 4 (9.5e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 955, DT = 5, NI = 3, LI = 14, RES = 2.8e-06 (9.0e-02), CFL=3.530 (ELAPSED 00:01:25 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.8129e-03, 8.8688e-02): lin 4 (4.9e-04)
+Composition correction applied in 162 block(s)
+	 #2 (6.4409e-04, 2.3308e+01): lin 4 (8.9e-04)
+Composition correction applied in 162 block(s)
+	 #3 (4.6619e-06, 4.1203e+00): lin 5 (3.5e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 960, DT = 5, NI = 3, LI = 13, RES = 1.6e-08 (3.1e-03), CFL=3.533 (ELAPSED 00:01:25 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.7770e-03, 4.4566e-03): lin 4 (5.3e-04)
+Composition correction applied in 179 block(s)
+	 #2 (9.5781e-04, 8.2800e+00): lin 5 (3.9e-04)
+Composition correction applied in 162 block(s)
+	 #3 (6.7134e-05, 1.4428e+00): lin 4 (5.0e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 965, DT = 5, NI = 3, LI = 13, RES = 4.2e-07 (9.4e-02), CFL=3.537 (ELAPSED 00:01:26 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.6981e-03, 9.4274e-02): lin 4 (5.3e-04)
+Composition correction applied in 182 block(s)
+	 #2 (8.9625e-04, 2.3708e+01): lin 5 (6.0e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 970, DT = 5, NI = 2, LI = 9, RES = 1.4e-04 (9.4e-01), CFL=3.540 (ELAPSED 00:01:26 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.6628e-03, 9.3376e-01): lin 5 (6.1e-04)
+Composition correction applied in 214 block(s)
+	 #2 (7.9657e-04, 1.1347e+01): lin 5 (3.3e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 975, DT = 5, NI = 2, LI = 10, RES = 2.6e-05 (8.1e-01), CFL=3.544 (ELAPSED 00:01:27 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.6100e-03, 8.1120e-01): lin 4 (5.7e-04)
+Composition correction applied in 262 block(s)
+	 #2 (8.9032e-04, 1.3843e+01): lin 4 (7.4e-04)
+Composition correction applied in 162 block(s)
+	 #3 (5.4433e-05, 2.6347e+00): lin 4 (7.2e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 980, DT = 5, NI = 3, LI = 12, RES = 3.5e-07 (2.0e-01), CFL=3.548 (ELAPSED 00:01:27 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.5394e-03, 1.9679e-01): lin 4 (8.2e-04)
+Composition correction applied in 222 block(s)
+	 #2 (9.0199e-04, 6.7265e+00): lin 4 (8.1e-04)
+Composition correction applied in 162 block(s)
+	 #3 (4.1641e-05, 3.7286e+00): lin 3 (9.8e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 985, DT = 5, NI = 3, LI = 11, RES = 2.6e-07 (1.4e-01), CFL=3.552 (ELAPSED 00:01:27 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.4286e-03, 1.3471e-01): lin 4 (6.8e-04)
+Composition correction applied in 262 block(s)
+	 #2 (7.0167e-04, 1.4281e+01): lin 5 (8.3e-04)
+Composition correction applied in 162 block(s)
+	 #3 (1.6610e-05, 2.0541e+00): lin 5 (3.3e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 990, DT = 5, NI = 3, LI = 14, RES = 2.5e-08 (5.5e-02), CFL=3.555 (ELAPSED 00:01:28 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.3992e-03, 5.5812e-02): lin 4 (7.7e-04)
+Composition correction applied in 262 block(s)
+	 #2 (7.1460e-04, 2.9381e+01): lin 5 (5.9e-04)
+Composition correction applied in 162 block(s)
+	 #3 (6.4398e-05, 4.4778e+00): lin 5 (6.1e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 995, DT = 5, NI = 3, LI = 14, RES = 9.5e-06 (4.0e-02), CFL=3.557 (ELAPSED 00:01:28 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.3262e-03, 4.2757e-02): lin 5 (4.9e-04)
+Composition correction applied in 262 block(s)
+	 #2 (6.3994e-04, 2.5534e+01): lin 5 (9.3e-04)
+Composition correction applied in 162 block(s)
+	 #3 (2.0110e-05, 4.2829e+00): lin 5 (5.0e-04)
+Composition correction applied in 162 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 1000, DT = 5, NI = 3, LI = 15, RES = 1.7e-08 (7.2e-02), CFL=3.559 (ELAPSED 00:01:29 )
+-------------------------------------------------------------------------------------------------------------
+
+Total steps 212 (0) newton 620 (0) linear 2807 (0)
+---OBL Statistics---
+Number of operators: 28
+Number of points: 200
+Number of interpolations: 2191523040 
+Number of points used: 6461 (0.081%)
+Total elapsed 89.092424 sec
+	jacobian assembly 12.801825 sec
+		interpolation 4.061285 sec
+			property interpolation 0.567305 sec
+				body generation 0.335939 sec
+					point generation 0.330382 sec
+			reservoir interpolation 5.211575 sec
+				body generation 2.246753 sec
+					point generation 2.231682 sec
+			well controls interpolation 0.320081 sec
+				body generation 0.134961 sec
+					point generation 0.132985 sec
+			well interpolation 0.144106 sec
+				body generation 0.126477 sec
+					point generation 0.124737 sec
+	linear solver setup 18.167297 sec
+		GMRES 18.165330 sec
+			CPR 18.163227 sec
+				AMG 6.190274 sec
+				ILU(0) 11.096622 sec
+	linear solver solve 50.969730 sec
+		GMRES 50.967026 sec
+			CPR 46.829149 sec
+				AMG 9.505154 sec
+				ILU(0) 34.733708 sec
+			SPMV_bsr 1.805962 sec
+			prec_comm 0.000000 sec
+	newton update 0.000000 sec
+		composition correction 0.554508 sec
