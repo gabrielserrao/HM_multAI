@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=12.job
+#SBATCH --output=/tudelft.net/staff-umbrella/gabrielserrao/FlowSimulation/HM/data/simulations/it0/data_model12.out
+#SBATCH --error=/tudelft.net/staff-umbrella/gabrielserrao/FlowSimulation/HM/data/simulations/it0/data_model12.err
+#SBATCH --time=2:00:00
+#SBATCH --mem=1G
+#SBATCH --partition=compute
+#SBATCH --account=research-ceg-gse
+module load 2022r2
+a=12
+b=/tudelft.net/staff-umbrella/gabrielserrao/FlowSimulation/HM/data/simulations/it0
+c=991
+python main_darts.py $a $b $c
