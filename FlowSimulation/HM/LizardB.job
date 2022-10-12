@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=LizardB.job
+#SBATCH --output=LizardB.out
+#SBATCH --error=LizardB.err
+#SBATCH --time=2:00:00
+#SBATCH --mem=1G
+#SBATCH --partition=compute
+#SBATCH --account=research-ceg-gse
+a=LizardB
+python teste_gpu.py $a
